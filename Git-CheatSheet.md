@@ -64,9 +64,11 @@ $ git config --system http.sslCAPath /path/to/cacerts
 
 #### From WikiLeaks [Vault 7](https://wikileaks.org/ciav7p1/cms/page_1179773.html)
 ```bash
-# Issue: When attempting to clone (or any other command that interacts with the remote server) git by default validates 
-# the presented SSL certificate by the server.  Our server's certificate is not valid and therefore git exits out with an error.
-# Resolution(Linux): For a one time fix, you can use the env command to create an environment variable of GIT_SSL_NO_VERIFY=TRUE. 
+# Issue: When attempting to clone (or any other command that interacts with the 
+# remote server) git by default validates the presented SSL certificate by the 
+# server.  Our server's certificate is not valid and therefore git exits out with 
+# an error. Resolution(Linux): For a one time fix, you can use the env command 
+# to create an environment variable of GIT_SSL_NO_VERIFY=TRUE. 
 $ env GIT_SSL_NO_VERIFY=TRUE git <command> <arguments>
 
 
