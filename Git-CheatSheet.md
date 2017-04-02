@@ -1,6 +1,15 @@
 # Git Cheat Sheet
 
-Undo a git add
+####
+
+```bash
+git checkout -f
+```
+CAUTION: commit uncommitted files before executing this command, otherwise you're going to lose them all.
+
+[Undo delete in Git](http://stackoverflow.com/a/9478062/6146580)
+
+#### Undo a git add
 
 ```bash
 git reset
@@ -8,7 +17,7 @@ git reset
 
 [Undo a git add - remove files staged for a git commit](http://data.agaric.com/undo-git-add-remove-files-staged-git-commit)
 
-Determine from where a local repository was cloned
+#### Determine from where a local repository was cloned
 
 ```bash
 git remote show origin
@@ -17,23 +26,22 @@ Or if referential integrity has been broken:
 ```bash
 git config --get remote.origin.url
 ```
-
 [How can I determine the URL that a local Git repository was originally cloned from?](https://stackoverflow.com/questions/4089430/how-can-i-determine-the-url-that-a-local-git-repository-was-originally-cloned-fr)
 
-Create a new repository on the command line
+#### Push an existing repository from the command line
+
+```bash
+git remote add origin https://github.com/gkhays/orientdb-testdrive.git
+git push -u origin master
+```
+
+#### Create a new repository on the command line
 
 ```bash
 touch README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/gkhays/orientdb-testdrive.git
-git push -u origin master
-```
-
-Push an existing repository from the command line
-
-```bash
 git remote add origin https://github.com/gkhays/orientdb-testdrive.git
 git push -u origin master
 ```
