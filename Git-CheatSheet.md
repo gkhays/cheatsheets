@@ -1,6 +1,6 @@
 # Git Cheat Sheet
 
-####
+#### Undo a delete
 
 ```bash
 git checkout -f
