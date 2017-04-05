@@ -24,17 +24,29 @@ $ docker exec -it my_docker /bin/bash
 
 To detach use the following escape sequence: `CTRL + p CTRL + q`.
 
+#### Stop a container
+
+`$ docker kill <container_id>`
+
+#### Remove stopped container
+
+`$ docker rm <container_id>`
+
+#### Start container with remove switch
+
+`$ docker run -d --name my_docker image_name --rm`
+
 #### See all containers
 `$ docker ps -a`
-
-#### See all images
-`$ docker images -a`
 
 #### Remove all exited containers
 `$ docker rm $(docker ps -a -f status=exited -q)`
 
 #### Remove all stopped containers
 `$ docker rm $(docker ps -a -q)`
+
+#### See all images
+`$ docker images -a`
 
 #### Remove all untagged images
 ```bash
@@ -46,7 +58,7 @@ $ docker images -q -a | xargs --no-run-if-empty docker rmi
 ### Resources
 * [Remove Untagged Images From Docker](http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html)
 * [What are Docker \<none\>:\<none\> images?](http://www.projectatomic.io/blog/2015/07/what-are-docker-none-none-images/)
-* [Docker – Clean Up After Yourself!](http://blog.yohanliyanage.com/2015/05/docker-clean-up-after-yourself/)
+* [Docker â€“ Clean Up After Yourself!](http://blog.yohanliyanage.com/2015/05/docker-clean-up-after-yourself/)
 * [How to remove unused Docker containers and images](https://gist.github.com/ngpestelos/4fc2e31e19f86b9cf10b)
 * [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
 * [How do you attach and detach from Docker's process?](https://stackoverflow.com/questions/19688314/how-do-you-attach-and-detach-from-dockers-process)
