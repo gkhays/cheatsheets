@@ -36,6 +36,8 @@ To detach use the following escape sequence: `CTRL + p CTRL + q`.
 
 `$ docker run -d --name my_docker image_name --rm`
 
+See [single command to stop and remove docker container](http://stackoverflow.com/a/35122815/6146580)
+
 #### See all containers
 `$ docker ps -a`
 
