@@ -27,6 +27,7 @@ mvn -U
 ```
 
 ### Log File
+**Note**: Suppresses output to the console.
 ```bash
 -l,--log-file <arg> e.g.
 
