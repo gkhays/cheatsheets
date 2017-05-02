@@ -5,14 +5,25 @@
 mvn -Dmaven.repo.local=/build/.m2/repository
 ```
 
-### Use custom settings file
+### Custom User settings file
 ```bash
+-s,--settings <arg> e.g.
+
 mvn -s ~/custom/settings.xml
 ```
 
 ### Use global settings file
 ```bash
+-gs,--global-settings <arg> e.g.
+
 mvn -gs /build/settings.xml
+```
+
+### Force Update from Remote Repository
+```bash
+-U,--update-snapshots e.g.
+
+mvn -U
 ```
 
 ## References
