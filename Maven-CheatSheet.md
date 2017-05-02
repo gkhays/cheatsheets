@@ -26,6 +26,13 @@ mvn -gs /build/settings.xml
 mvn -U
 ```
 
+### Log File
+```bash
+-l,--log-file <arg> e.g.
+
+mvn -l maven.log
+```
+
 ## References
 1. [Maven - alternative .m2 directory](http://stackoverflow.com/a/16592061/6146580)
 2. [How to Override the Maven Local Repository setting](https://confluence.atlassian.com/bamkb/how-to-override-the-maven-local-repository-setting-838546993.html)
