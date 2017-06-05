@@ -13,7 +13,7 @@ $ docker run -d --name my_docker -p 8080:8080 image_name
 Attach to a running Docker container by ID.
 
 ```bash
-$ docker exec -i -t 32adfbf6eb62 /bin/bash
+$ docker exec -it 32adfbf6eb62 /bin/bash
 ```
 
 Attach to a running Docker container by name and enter a Bash shell.
