@@ -15,3 +15,4 @@ H/15 * * * *
 
 * See [Jenkins Build Periodically](https://stackoverflow.com/a/38117794/6146580).
 * See also [Cron Expressions](https://en.wikipedia.org/wiki/Cron).
+* [How to schedule jobs in Jenkins?](https://stackoverflow.com/a/12472740/6146580)
