@@ -11,4 +11,6 @@ H * * * *
 H/15 * * * *
 ```
 
-[Jenkins Build Periodically](https://stackoverflow.com/a/38117794/6146580)
+1[Jenkins Build Triggers](images/jenkins-build-triggers.png)
+
+See [Jenkins Build Periodically](https://stackoverflow.com/a/38117794/6146580).
