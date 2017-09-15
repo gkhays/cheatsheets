@@ -1,5 +1,10 @@
 # Maven Cheat Sheet
 
+### Get a dependency tree
+```bash
+mvn dependency:tree
+```
+
 ### Override local repository
 ```bash
 mvn -Dmaven.repo.local=/build/.m2/repository
