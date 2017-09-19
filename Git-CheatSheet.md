@@ -17,6 +17,20 @@ git reset
 
 [Undo a git add - remove files staged for a git commit](http://data.agaric.com/undo-git-add-remove-files-staged-git-commit)
 
+#### Undo the last commit
+
+```bash
+git reset HEAD~
+```
+[A more detailed example](https://stackoverflow.com/a/927386/6146580).
+
+#### Undo git revert HEAD
+
+```bash
+git reset --hard HEAD^
+```
+[Discussion](https://stackoverflow.com/a/3662556/6146580)
+
 #### Determine from where a local repository was cloned
 
 ```bash
