@@ -163,4 +163,5 @@ $ git config --global http.sslVerify false
 [configure Git to accept a particular self-signed server certificate for a particular https remote](http://stackoverflow.com/a/16543283/6146580)<br/>
 [Https certificate errors for GitHub using git on Windows 7](http://stackoverflow.com/a/32318742/6146580)<br/>
 [Unable to clone Git repository due to self signed certificate](https://confluence.atlassian.com/fishkb/unable-to-clone-git-repository-due-to-self-signed-certificate-376838977.html)<br/>
-https://github.com/iwonbigbro/tools/blob/master/bin/git-remote-install-cert.sh
+https://github.com/iwonbigbro/tools/blob/master/bin/git-remote-install-cert.sh<br/>
+[Setting up a repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
