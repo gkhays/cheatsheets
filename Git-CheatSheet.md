@@ -22,7 +22,7 @@ git reset
 ```bash
 git reset HEAD~
 ```
-[A more detailed example](https://stackoverflow.com/a/927386/6146580).
+[A more detailed example](https://stackoverflow.com/a/927386/6146580)
 
 #### Undo git revert HEAD
 
@@ -30,6 +30,13 @@ git reset HEAD~
 git reset --hard HEAD^
 ```
 [Discussion](https://stackoverflow.com/a/3662556/6146580)
+
+#### Resolve your branch is ahead of 'origin/master' by x commits
+
+```bash
+git rebase -i origin/master
+```
+Typically, you would use `git reset --hard origin/master` but in this case I wanted to see how the local master differed from the remote one. See [Your branch is ahead of 'origin/master' by 3 commits](https://stackoverflow.com/a/16288283/6146580).
 
 #### Determine from where a local repository was cloned
 
