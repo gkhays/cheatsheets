@@ -62,6 +62,12 @@ git push -u origin master
 git push --set-upstream origin developer
 ```
 
+#### Show your configuration
+
+```bash
+git config --list
+```
+
 #### Create a new repository on the command line
 
 ```bash
