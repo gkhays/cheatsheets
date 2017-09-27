@@ -148,6 +148,15 @@ It would be insecure to disable certificate validation on a global basis, so as 
 $ git config --system http.sslCAPath /path/to/cacerts
 ```
 
+#### Expected Committer Email
+
+```bash
+git commit --amend --allow-empty --author="FirstName LastName <name@email.com>"
+git commit --amend --reset-author
+```
+https://stackoverflow.com/a/28425852/6146580
+https://stackoverflow.com/a/33009142/6146580
+
 #### From WikiLeaks [Vault 7](https://wikileaks.org/ciav7p1/cms/page_1179773.html)
 ```bash
 # Issue: When attempting to clone (or any other command that interacts with the 
