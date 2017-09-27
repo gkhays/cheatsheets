@@ -56,6 +56,12 @@ git remote add origin https://github.com/gkhays/orientdb-testdrive.git
 git push -u origin master
 ```
 
+#### Push the curent branch and set the remote as upstream
+
+```bash
+git push --set-upstream origin developer
+```
+
 #### Create a new repository on the command line
 
 ```bash
