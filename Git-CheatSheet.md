@@ -24,12 +24,26 @@ git reset HEAD~
 ```
 [A more detailed example](https://stackoverflow.com/a/927386/6146580)
 
+#### Discard changes in working directory
+
+```bash
+git checkout -- <file>
+```
+
 #### Undo git revert HEAD
 
 ```bash
 git reset --hard HEAD^
 ```
 [Discussion](https://stackoverflow.com/a/3662556/6146580)
+
+#### Sync local repo with remote one
+
+```bash
+git fetch --prune
+```
+Also removes completed branch.
+[Sync local repo with remote one](https://stackoverflow.com/a/15124916/6146580)
 
 #### Resolve your branch is ahead of 'origin/master' by x commits
 
