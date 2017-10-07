@@ -1,5 +1,17 @@
 # Maven Cheat Sheet
 
+### Remove platform encoding warning
+```xml
+<project ...>
+ ...
+ <properties>
+   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   ...
+ </properties>
+ ..
+</project>
+```
+
 ### Get a dependency tree
 ```bash
 mvn dependency:tree
