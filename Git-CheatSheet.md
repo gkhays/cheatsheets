@@ -52,6 +52,24 @@ git rebase -i origin/master
 ```
 Typically, you would use `git reset --hard origin/master` but in this case I wanted to see how the local master differed from the remote one. See [Your branch is ahead of 'origin/master' by 3 commits](https://stackoverflow.com/a/16288283/6146580).
 
+#### Remove and then ignore IDE settings
+
+```bash
+git rm --cached .project
+git rm --cached .classpath
+git rm --cached -r .settings
+```
+
+Then add to .gitignore
+
+```
+.project
+.classpath
+.settings/
+```
+
+[How to ignore IDE settings on Git?](https://stackoverflow.com/a/24583296/6146580)
+
 #### Determine from where a local repository was cloned
 
 ```bash
