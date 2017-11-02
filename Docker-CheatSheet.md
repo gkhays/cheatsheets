@@ -51,7 +51,9 @@ See [single command to stop and remove docker container](http://stackoverflow.co
 `$ docker images -a`
 
 #### Format image list
-`$ docker images --format "table {{.Repository}}\\t{{.Tag}}\\t{{.ID}}"
+```bash
+$ docker images --format "table {{.Repository}}\\t{{.Tag}}\\t{{.ID}}"
+```
 
 Store the format in `~/.docker/config.json`. E.g.
 
