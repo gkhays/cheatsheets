@@ -50,6 +50,20 @@ See [single command to stop and remove docker container](http://stackoverflow.co
 #### See all images
 `$ docker images -a`
 
+#### Format image list
+`$ docker images --format "table {{.Repository}}\\t{{.Tag}}\\t{{.ID}}"
+
+Store the format in `~/.docker/config.json`. E.g.
+
+```json
+{
+  "psFormat": "table {{.Names}}\\t{{.Image}}\\t{{.RunningFor}} ago\\t{{.Status}}\\t{{.Command}}",
+  "imagesFormat": "table {{.Repository}}\\t{{.Tag}}\\t{{.ID}}\\t{{.Size}}"
+}
+```
+
+[See Docker Quicktip #7: docker ps --format](http://container42.com/2016/03/27/docker-quicktip-7-psformat/).
+
 #### Remove all untagged images
 ```bash
 $ docker rmi $(docker images -q -f dangling=true)
