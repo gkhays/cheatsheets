@@ -117,6 +117,8 @@ git fetch --prune
 ```
 After fetching, remove any remote-tracking branches which no longer exist on the remote -- http://stackoverflow.com/a/15124916/6146580
 
+### [Flight rules for git](https://github.com/k88hudson/git-flight-rules)
+
 ### Possible Aliases
 
 ```bash
