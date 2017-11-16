@@ -127,6 +127,7 @@ git config --global --unset user.password
 
 [How do I update the password for Git?](https://stackoverflow.com/a/20195558/6146580)<br/>
 https://git-scm.com/book/gr/v2/Git-Tools-Credential-Storage
+[git credential helper - update password](https://stackoverflow.com/a/25846817/6146580)
 
 ### Possible Aliases
 
