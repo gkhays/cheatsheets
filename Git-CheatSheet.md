@@ -119,6 +119,15 @@ After fetching, remove any remote-tracking branches which no longer exist on the
 
 ### [Flight rules for git](https://github.com/k88hudson/git-flight-rules)
 
+### Git and Passwords
+
+```bash
+git config --global --unset user.password
+```
+
+[How do I update the password for Git?](https://stackoverflow.com/a/20195558/6146580)
+https://git-scm.com/book/gr/v2/Git-Tools-Credential-Storage
+
 ### Possible Aliases
 
 ```bash
