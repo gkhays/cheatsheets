@@ -9,5 +9,6 @@
 https://stackoverflow.com/a/29973358/6146580
 
 ### Open Terminal
-
-`Ctrl + ` `
+```
+Ctrl + `
+```
