@@ -1,10 +1,10 @@
 # Eclipse Cheat Sheet
 
-1. `CTRL+Shift+R`
-Open Resource - Open any file quickly without browsing for it in the Package Explorer
+1. Open Resource - Open any file quickly without browsing for it in the Package Explorer
+`CTRL+Shift+R`
 
-2. `CTRL+Shift+T`
-Open Type - Open a type
+2. Open Type - Open a type
+`CTRL+Shift+T`
 
 3. `CTRL+O`
 Go directly to a member
@@ -43,3 +43,5 @@ Help >> Help Contents >> Java Development User Guide >> Reference >> Menus and A
 ![Eclipse Menus and Actions](images/eclipse-menus-actions.png)
 
 http://rayfd.me/2007/05/20/10-eclipse-navigation-shortcuts-every-java-programmer-should-know/
+
+It turns out the above link is dead but I captured it in Evernote. As time permits, I'll add the screen shots to this cheat sheet.
