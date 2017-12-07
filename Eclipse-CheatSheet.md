@@ -22,7 +22,7 @@ Go to a supertype/subtype
 7. `CTRL+E`
 Got to other open editors
 
-8. `CTRL+.` for next, CTRL+,` for previous problem
+8. `CTRL+.` for next, `CTRL+,` for previous problem
 Move to one problem
 
 9. `ALT+<-` (left arrow) and `ALT+->` (right arrow)
