@@ -1,10 +1,15 @@
 # Eclipse Cheat Sheet
 
 1. Open Resource - Open any file quickly without browsing for it in the Package Explorer
-`CTRL+Shift+R`
+```
+CTRL+Shift+R
+```
+![Open Resource](images/open-resource.png)
 
 2. Open Type - Open a type
-`CTRL+Shift+T`
+```
+CTRL+Shift+T
+```
 
 3. `CTRL+O`
 Go directly to a member
