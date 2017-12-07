@@ -40,4 +40,6 @@ Open type hierarchy to show subclasses of a class or interface.
 
 Help >> Help Contents >> Java Development User Guide >> Reference >> Menus and Actions
 
+![Eclipse Menus and Actions](images/eclipse-menus-actions.png)
+
 http://rayfd.me/2007/05/20/10-eclipse-navigation-shortcuts-every-java-programmer-should-know/
