@@ -35,7 +35,9 @@ Go to a type declaration, alternatively hold CTRL down and click the hyperlinked
 Open type hierarchy to show subclasses of a class or interface.
 
 
-`CTRL+Shift+G` - search for references to selected method or variable
+`CTRL+Shift+G` - search for references to selected method or variable<br/>
 `CTRL+ALT+H` - show call hierarchy
+
+Help >> Help Contents >> Java Development User Guide >> Reference >> Menus and Actions
 
 http://rayfd.me/2007/05/20/10-eclipse-navigation-shortcuts-every-java-programmer-should-know/
