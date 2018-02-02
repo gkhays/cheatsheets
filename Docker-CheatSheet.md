@@ -73,6 +73,11 @@ $ docker rmi $(docker images | grep "^<none>" | awk '{print $3}')
 $ docker images -q -a | xargs --no-run-if-empty docker rmi
 ```
 
+#### Remove all unused volumes
+```bash
+$ docker volume prune -f
+```
+
 ### Resources
 * [Remove Untagged Images From Docker](http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html)
 * [What are Docker \<none\>:\<none\> images?](http://www.projectatomic.io/blog/2015/07/what-are-docker-none-none-images/)
