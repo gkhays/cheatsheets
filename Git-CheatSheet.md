@@ -182,6 +182,12 @@ Then clone:
 $ git clone https://<repo>.git
 ```
 
+Alternatively, using the `-c` switch
+
+```bash
+$ git -c http.sslVerify=false clone https://github.com/gkhays/cheatsheets.git
+```
+
 It is possible to globally disable certificate verification, `--global`, but the best practice is to only do it on repos you trust.
 
 ```bash
