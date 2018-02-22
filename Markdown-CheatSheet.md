@@ -20,3 +20,7 @@ E.g.
 ```console
 $ ls
 ```
+`bash` or `bat` work as well
+
+* [Defines all Languages known to GitHub](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+* [Syntax highlighting in markdown](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown)
