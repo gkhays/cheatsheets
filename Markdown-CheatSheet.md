@@ -10,7 +10,13 @@ Runner up: works for Jekyll, but not Markdown
 [Markdown open a new window link](http://stackoverflow.com/a/5803384/6146580)
 
 ### Illustrate command line or shell commands
-Use `console` as the language, e.g.
+Use `console` as the language
+<pre>
 ```console
-ls
+$ ls
+```
+</pre>
+E.g.
+```console
+$ ls
 ```
