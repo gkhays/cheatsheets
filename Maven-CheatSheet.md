@@ -51,6 +51,38 @@ mvn -U
 mvn -l maven.log
 ```
 
+### Local Dependencies
+
+```xml
+<dependency>
+    <groupId>com.sample</groupId>
+    <artifactId>sample</artifactId>
+    <version>1.0</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}/src/main/resources/yourJar.jar</systemPath>
+</dependency>
+```
+
+See [How to add local jar files to a Maven project?](https://stackoverflow.com/a/22300875).
+
+Alternatively
+
+```bash
+mvn install:install-file
+   -Dfile=<path-to-file>
+   -DgroupId=<group-id>
+   -DartifactId=<artifact-id>
+   -Dversion=<version>
+   -Dpackaging=<packaging>
+   -DgeneratePom=true
+
+Where: <path-to-file>  the path to the file to load
+   <group-id>      the group that the file should be registered under
+   <artifact-id>   the artifact name for the file
+   <version>       the version of the file
+   <packaging>     the packaging of the file e.g. jar
+```
+
 ## Plugins
 
 ### Shade or Uber JAR
