@@ -37,6 +37,16 @@ git reset --hard HEAD^
 ```
 [Discussion](https://stackoverflow.com/a/3662556/6146580)
 
+#### Move uncommitted work to a new branch
+
+```bash
+git checkout -b development
+git add .
+git commit -m "First commit in the new branch"
+```
+
+[Move existing, uncommitted work to a new branch in Git](https://stackoverflow.com/a/1394804)
+
 #### Sync local repo with remote one
 
 ```bash
