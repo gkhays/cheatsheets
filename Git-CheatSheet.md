@@ -35,7 +35,7 @@ git checkout -- <file>
 ```bash
 git reset --hard HEAD^
 ```
-[Discussion](https://stackoverflow.com/a/3662556/6146580)
+See [Is there any way to undo the effects of “git revert head”?](https://stackoverflow.com/a/3662556/6146580).
 
 #### Move uncommitted work to a new branch
 
