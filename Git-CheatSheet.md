@@ -55,6 +55,20 @@ git fetch --prune
 Also removes completed branch.
 [Sync local repo with remote one](https://stackoverflow.com/a/15124916/6146580)
 
+#### Switch to a branch and sync
+
+```bash
+git pull origin other-branch
+```
+
+Which is equivalent to
+
+```bash
+git fetch origin other-branch && git merge other-branch
+```
+
+See [Git pull a certain branch from GitHub](https://stackoverflow.com/a/1710474).
+
 #### Resolve your branch is ahead of 'origin/master' by x commits
 
 ```bash
