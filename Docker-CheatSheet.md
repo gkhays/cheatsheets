@@ -36,7 +36,7 @@ On Windows. Note the above works with PowerShell.
 docker run --rm %cd%:/home/jovyan/work jupyter/scipy-notebook
 ```
 
-https://stackoverflow.com/a/41489151
+See https://stackoverflow.com/a/41489151
 
 #### Stop a container
 
