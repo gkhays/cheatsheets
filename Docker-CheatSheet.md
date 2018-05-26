@@ -24,6 +24,20 @@ $ docker exec -it my_docker /bin/bash
 
 To detach use the following escape sequence: `CTRL + p CTRL + q`.
 
+#### Mount current directory
+
+```bash
+docker run --rm -v ${PWD}:/home/jovyan/work jupyter/scipy-notebook
+```
+
+On Windows. Note the above works with PowerShell.
+
+```bash
+docker run --rm %cd%:/home/jovyan/work jupyter/scipy-notebook
+```
+
+https://stackoverflow.com/a/41489151
+
 #### Stop a container
 
 `$ docker kill <container_id>`
