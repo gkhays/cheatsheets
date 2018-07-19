@@ -43,6 +43,8 @@ Open type hierarchy to show subclasses of a class or interface.
 `CTRL+Shift+G` - search for references to selected method or variable<br/>
 `CTRL+ALT+H` - show call hierarchy
 
+`CTRL+.` - go to next error
+
 Help >> Help Contents >> Java Development User Guide >> Reference >> Menus and Actions
 
 ![Eclipse Menus and Actions](images/eclipse-menus-actions.png)
