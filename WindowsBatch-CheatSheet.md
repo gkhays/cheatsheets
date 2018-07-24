@@ -119,3 +119,4 @@ pushd %~dp0
 8. [What does d0 mean](https://stackoverflow.com/questions/112055/what-does-d0-mean-in-a-windows-batch-file)
 9. [What does dp0 mean](https://stackoverflow.com/questions/5034076/what-does-dp0-mean-and-how-does-it-work)
 10. [%~dp0 vs %cd%](http://www.computerhope.com/forum/index.php?topic=54333.0)
+11. [Windows Batch Scripting: Advanced Tricks](https://steve-jansen.github.io/guides/windows-batch-scripting/part-10-advanced-tricks.html)
