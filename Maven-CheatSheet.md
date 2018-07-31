@@ -36,6 +36,12 @@ mvn -s ~/custom/settings.xml
 mvn -gs /build/settings.xml
 ```
 
+### Logging Level
+```bash
+mvn clean package -Dorg.slf4j.simpleLogger.defaultLogLevel=DEBUG
+```
+Alternatively, you can edit it in `${MAVEN_HOME}/conf/logging/simplelogger.properties` or by creating `.mvn/jvm.config`.
+
 ### Force Update from Remote Repository
 ```bash
 -U,--update-snapshots e.g.
@@ -121,3 +127,4 @@ See [Selecting Contents for Uber JAR](https://maven.apache.org/plugins/maven-sha
 ## References
 1. [Maven - alternative .m2 directory](http://stackoverflow.com/a/16592061/6146580)
 2. [How to Override the Maven Local Repository setting](https://confluence.atlassian.com/bamkb/how-to-override-the-maven-local-repository-setting-838546993.html)
+3. Maven logging: [Maven logging and the command line](https://binkley.blogspot.com/2017/04/maven-logging-and-command-line.html) and [How to change maven logging level...](https://stackoverflow.com/a/19319402/6146580).
