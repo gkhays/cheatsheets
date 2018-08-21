@@ -1,5 +1,9 @@
 # Outlook Cheat Sheet
 
+### Junk Mail Options
+
+`Alt+H+J` then up or down arrow
+
 ### Mark as read
 
 `Ctrl+Q`
@@ -8,7 +12,7 @@
 
 `Ctrl+R`
 
-### Reploy to all
+### Reply to all
 
 `Ctrl+Shift+R`
 
