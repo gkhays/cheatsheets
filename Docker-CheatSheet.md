@@ -55,6 +55,9 @@ See [single command to stop and remove docker container](http://stackoverflow.co
 #### See all containers
 `$ docker ps -a`
 
+#### Clean up everything
+`docker system prune`
+
 #### Remove all exited containers
 `$ docker rm $(docker ps -a -f status=exited -q)`
 
