@@ -40,23 +40,33 @@ See https://stackoverflow.com/a/41489151
 
 #### Stop a container
 
-`$ docker kill <container_id>`
+```bash
+$ docker kill <container_id>
+```
 
 #### Remove stopped container
 
-`$ docker rm <container_id>`
+```bash
+$ docker rm <container_id>
+```
 
 #### Start container with remove switch
 
-`$ docker run -d --name my_docker image_name --rm`
+```bash
+$ docker run -d --name my_docker image_name --rm
+```
 
 See [single command to stop and remove docker container](http://stackoverflow.com/a/35122815/6146580)
 
 #### See all containers
-`$ docker ps -a`
+```bash
+$ docker ps -a
+```
 
 #### Clean up everything
-`docker system prune`
+```bash
+$ docker system prune
+````
 
 #### Remove all exited containers
 `$ docker rm $(docker ps -a -f status=exited -q)`
