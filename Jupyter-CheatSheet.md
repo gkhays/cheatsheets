@@ -1,6 +1,6 @@
 # Jupyter Notebook Cheat Sheet
 
-Suppress token
+### Suppress token
 ```bash
 --NotebookApp.token=''
 ```
