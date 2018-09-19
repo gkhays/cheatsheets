@@ -1,4 +1,16 @@
 # Docker Cheat Sheet
+
+### Handy Aliases
+```bash
+alias dc='docker-compose'
+alias de='docker-machine env'
+alias di='docker images'
+alias dl='docker-machine ls'
+alias dm='docker-machine'
+alias dps='docker ps'
+alias dpsa='docker ps -a'
+```
+
 #### Run an image
 Run a Docker container in detached mode and expose port 8080.
 
