@@ -47,6 +47,8 @@ Open type hierarchy to show subclasses of a class or interface.
 
 15. `CTRL+F11` - run the application
 
+16. `ALT+Shift+R` - rename
+
 Help >> Help Contents >> Java Development User Guide >> Reference >> Menus and Actions
 
 ![Eclipse Menus and Actions](images/eclipse-menus-actions.png)
