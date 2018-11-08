@@ -39,11 +39,13 @@ Go to a type declaration, alternatively hold CTRL down and click the hyperlinked
 11. `F4`
 Open type hierarchy to show subclasses of a class or interface.
 
+12. `CTRL+Shift+G` - search for references to selected method or variable<br/>
 
-`CTRL+Shift+G` - search for references to selected method or variable<br/>
-`CTRL+ALT+H` - show call hierarchy
+13. `CTRL+ALT+H` - show call hierarchy
 
-`CTRL+.` - go to next error
+14. `CTRL+.` - go to next error
+
+15. `CTRL+F11` - run the application
 
 Help >> Help Contents >> Java Development User Guide >> Reference >> Menus and Actions
 
