@@ -1,5 +1,11 @@
 # Maven Cheat Sheet
 
+### Get project version
+```
+λ mvn -q -Dexec.executable="echo" -Dexec.args='${project.version}' --non-recursive exec:exec
+1.0.0-SNAPSHOT
+```
+
 ### Remove platform encoding warning
 ```xml
 <project ...>
