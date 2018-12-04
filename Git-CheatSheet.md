@@ -103,7 +103,17 @@ Or if referential integrity has been broken:
 ```bash
 git config --get remote.origin.url
 ```
+Or simple
+```bash
+git remote -v
+```
 [How can I determine the URL that a local Git repository was originally cloned from?](https://stackoverflow.com/questions/4089430/how-can-i-determine-the-url-that-a-local-git-repository-was-originally-cloned-fr)
+
+#### Change remote URL
+
+```bash
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+```
 
 #### Push an existing repository from the command line
 
