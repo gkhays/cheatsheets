@@ -103,7 +103,7 @@ Or if referential integrity has been broken:
 ```bash
 git config --get remote.origin.url
 ```
-Or simple
+Or simply
 ```bash
 git remote -v
 ```
