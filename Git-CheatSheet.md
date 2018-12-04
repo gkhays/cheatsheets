@@ -141,6 +141,17 @@ git push -u origin master
 git push --set-upstream origin developer
 ```
 
+### Import repository to Bitbucket
+
+Create a new repo in bitbucket.
+```bash
+git clone <gitlabRepoUrl>
+cd <repoName>
+git remote add bitbucket <bitbucketRepoUrl>
+git push bitbucket master
+```
+[How to import gitlab repository to bitbucket Repository](https://stackoverflow.com/a/44106169/6146580)
+
 #### Show your configuration
 
 ```bash
