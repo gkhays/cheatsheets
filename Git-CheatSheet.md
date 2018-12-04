@@ -92,7 +92,20 @@ Then add to .gitignore
 .settings/
 ```
 
-[How to ignore IDE settings on Git?](https://stackoverflow.com/a/24583296/6146580)
+Example .gitignore
+```bash
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven
+log/
+target/
+```
+
+[How to ignore IDE settings on Git?](https://stackoverflow.com/a/24583296/6146580)<br/>
+[A .gitignore file for Intellij and Eclipse with Maven](http://gary-rowe.com/agilestack/2012/10/12/a-gitignore-file-for-intellij-and-eclipse-with-maven/)
 
 #### Determine from where a local repository was cloned
 
