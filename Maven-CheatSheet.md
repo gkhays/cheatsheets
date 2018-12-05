@@ -63,6 +63,12 @@ mvn -U
 mvn -l maven.log
 ```
 
+### Batch Mode
+```bash
+mvn -B
+```
+[Maven Command Line Options](https://books.sonatype.com/mvnref-book/reference/running-sect-options.html)
+
 ### Local Dependencies
 
 ```xml
@@ -127,8 +133,21 @@ Automatically remove classes not being used.
   ...
 </project>
 ```
-
 See [Selecting Contents for Uber JAR](https://maven.apache.org/plugins/maven-shade-plugin/examples/includes-excludes.html).
+
+### Release Plugin
+
+```xml
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-release-plugin</artifactId>
+  <version>2.5.3</version>
+  <configuration>
+    <tagNameFormat>v@{project.version}</tagNameFormat>
+  </configuration>
+</plugin>
+```
+[Maven Release Plugin > Prepare a Release](https://maven.apache.org/maven-release/maven-release-plugin/examples/prepare-release.html)
 
 ## References
 1. [Maven - alternative .m2 directory](http://stackoverflow.com/a/16592061/6146580)
