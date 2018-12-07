@@ -49,6 +49,10 @@ Open type hierarchy to show subclasses of a class or interface.
 
 16. `ALT+Shift+R` - rename
 
+17. `CTRL+D` - delete a line
+
+[Delete a line in Eclipse](https://stackoverflow.com/a/591185/6146580)
+
 Help >> Help Contents >> Java Development User Guide >> Reference >> Menus and Actions
 
 ![Eclipse Menus and Actions](images/eclipse-menus-actions.png)
