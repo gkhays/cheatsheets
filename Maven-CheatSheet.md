@@ -149,7 +149,26 @@ See [Selecting Contents for Uber JAR](https://maven.apache.org/plugins/maven-sha
 ```
 [Maven Release Plugin > Prepare a Release](https://maven.apache.org/maven-release/maven-release-plugin/examples/prepare-release.html)
 
+## Command Line Options
+(Frequently used by me)
+| Options                | Description            |
+|------------------------|------------------------|
+| -B,--batch-mode        | Run in non-interactive (batch) mode (disables output color) |
+| -D,--define            | Define a system property |
+| -e,--errors            | Produce execution error messages |
+| -f,--file              | Force the use of an alternate POM file (or directory with pom.xml) |
+| -N,--non-recursive     | Do not recurse into sub-projects |
+| -o,--offline           | Work offline |
+| -P,--activate-profiles | Comma-delimited list of profiles to activate |
+| -pl,--projects         | Comma-delimited list of specified reactor projects to build instead of all projects. A project can be specified by [groupId]:artifactId or by its relative path |
+| -rf,--resume-from      | Resume reactor from specified project |
+| -s,--settings          | Alternate path for the user settings file |
+| -U,--update-snapshots  | Forces a check for missing releases and updated snapshots on remote repositories |
+| -v,--version           | Display version information |
+| -X,--debug             | Produce execution debug output |
+
 ## References
 1. [Maven - alternative .m2 directory](http://stackoverflow.com/a/16592061/6146580)
 2. [How to Override the Maven Local Repository setting](https://confluence.atlassian.com/bamkb/how-to-override-the-maven-local-repository-setting-838546993.html)
 3. Maven logging: [Maven logging and the command line](https://binkley.blogspot.com/2017/04/maven-logging-and-command-line.html) and [How to change maven logging level...](https://stackoverflow.com/a/19319402/6146580).
+4. [Maven CLI Options Reference](https://maven.apache.org/ref/3.6.0/maven-embedder/cli.html)
