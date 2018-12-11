@@ -151,6 +151,7 @@ See [Selecting Contents for Uber JAR](https://maven.apache.org/plugins/maven-sha
 
 ## Command Line Options
 (Frequently used by me)
+
 | Options                | Description            |
 |------------------------|------------------------|
 | -B,--batch-mode        | Run in non-interactive (batch) mode (disables output color) |
