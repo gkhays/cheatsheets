@@ -15,8 +15,8 @@ Ctrl + `
 
 ### Markdown Preview
 
-To switch between views `Ctrl + Shift + V`
+`Ctrl + Shift + V` To switch between views
 
-Side-by-side `Ctrl + K V`
+`Ctrl + K V` Side-by-side
 
 https://code.visualstudio.com/docs/languages/markdown
