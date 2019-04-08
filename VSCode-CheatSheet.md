@@ -12,3 +12,11 @@ https://stackoverflow.com/a/29973358/6146580
 ```
 Ctrl + `
 ```
+
+### Markdown Preview
+
+To switch between views `Ctrl + Shift + V`
+
+Side-by-side `Ctrl + K V`
+
+https://code.visualstudio.com/docs/languages/markdown
