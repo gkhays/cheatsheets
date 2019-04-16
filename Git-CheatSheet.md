@@ -126,6 +126,13 @@ git remote -v
 
 ```bash
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+```
+
+#### SSH URLs
+
+```
+git@github.com:<repo>/<project>.git
 ```
 
 #### Push an existing repository from the command line
