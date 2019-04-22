@@ -53,10 +53,11 @@ Open type hierarchy to show subclasses of a class or interface.
 
 [Delete a line in Eclipse](https://stackoverflow.com/a/591185/6146580)
 
-18. `CTRL+E`
-`CTRL+F6`
-`CTRL+Page Up`
-`CTRL+Page Down`
+18. Navigate between tabs
+* `CTRL+E`
+* `CTRL+F6`
+* `CTRL+Page Up`
+* `CTRL+Page Down`
 
 [Eclipse HotKey: how to switch between tabs?](https://stackoverflow.com/a/2332440)
 
