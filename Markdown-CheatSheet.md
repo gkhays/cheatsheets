@@ -9,6 +9,13 @@ Runner up: works for Jekyll, but not Markdown
 
 [Markdown open a new window link](http://stackoverflow.com/a/5803384/6146580)
 
+### Resize an Image
+```
+![](images/img.png | width=100)
+![](images/img.png =250x250
+```
+More... https://gist.github.com/uupaa/f77d2bcf4dc7a294d109
+
 ### Illustrate command line or shell commands
 Use `console` as the language
 <pre>
