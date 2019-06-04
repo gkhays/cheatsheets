@@ -76,6 +76,15 @@ git rebase -i origin/master
 ```
 Typically, you would use `git reset --hard origin/master` but in this case I wanted to see how the local master differed from the remote one. See [Your branch is ahead of 'origin/master' by 3 commits](https://stackoverflow.com/a/16288283/6146580).
 
+#### Rename a local and remote branch
+
+```bash
+git branch -m new-name
+git push origin :old-name new-name
+git push origin -u new-name
+```
+See [Rename a local and remote branch in git](https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/)
+
 #### Remove and then ignore IDE settings
 
 ```bash
