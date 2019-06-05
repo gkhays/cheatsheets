@@ -47,6 +47,12 @@ git commit -m "First commit in the new branch"
 
 [Move existing, uncommitted work to a new branch in Git](https://stackoverflow.com/a/1394804)
 
+#### Push branch to remote repo
+
+```bash
+git push -u origin feature_branch_name
+```
+
 #### Sync local repo with remote one
 
 ```bash
