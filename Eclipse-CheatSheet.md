@@ -6,54 +6,57 @@ CTRL+Shift+R
 ```
 ![Open Resource](images/open-resource.png)
 
-2. Open Type - Open a type
+1. Open Type - Open a type
 ```
 CTRL+Shift+T
 ```
 
-3. `CTRL+O`
+1. `CTRL+O`
 Go directly to a member
 `CTRL+Shift+DOWN` or `CTRL+Shift+UP` to jump from member to member
 
-4. `CTRL+L, enter line number`
+1. `CTRL+L, enter line number`
 Go to line number N in the source file
 
-5. `CTRL+Q`
+1. `ALT+Shift+S,R`
+[Generate getters and setters](https://dzone.com/articles/generate-rename-and-delete)
+
+1. `CTRL+Q`
 Go to the last edit location
 
-6. `CTRL+T`
+1. `CTRL+T`
 Go to a supertype/subtype
 
-7. `CTRL+E`
+1. `CTRL+E`
 Got to other open editors
 
-8. `CTRL+.` for next, `CTRL+,` for previous problem
+1. `CTRL+.` for next, `CTRL+,` for previous problem
 Move to one problem
 
-9. `ALT+<-` (left arrow) and `ALT+->` (right arrow)
+1. `ALT+<-` (left arrow) and `ALT+->` (right arrow)
 Hop back and forth through the files you have visited
 
-10. `F3`
+1. `F3`
 Go to a type declaration, alternatively hold CTRL down and click the hyperlinked variable or class
 
-11. `F4`
+1. `F4`
 Open type hierarchy to show subclasses of a class or interface.
 
-12. `CTRL+Shift+G` - search for references to selected method or variable<br/>
+1. `CTRL+Shift+G` - search for references to selected method or variable<br/>
 
-13. `CTRL+ALT+H` - show call hierarchy
+1. `CTRL+ALT+H` - show call hierarchy
 
-14. `CTRL+.` - go to next error
+1. `CTRL+.` - go to next error
 
-15. `CTRL+F11` - run the application
+1. `CTRL+F11` - run the application
 
-16. `ALT+Shift+R` - rename
+1. `ALT+Shift+R` - rename
 
-17. `CTRL+D` - delete a line
+1. `CTRL+D` - delete a line
 
 [Delete a line in Eclipse](https://stackoverflow.com/a/591185/6146580)
 
-18. Navigate between tabs
+1. Navigate between tabs
 * `CTRL+E`
 * `CTRL+F6`
 * `CTRL+Page Up`
