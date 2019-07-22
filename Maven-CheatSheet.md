@@ -67,6 +67,14 @@ mvn -l maven.log
 ```bash
 mvn -B
 ```
+
+### Parallel Builds
+1 thread per available CPU core
+```bash
+mvn -T 1C
+```
+[Your Maven build is slow. Speed it up!](https://jrebel.com/rebellabs/your-maven-build-is-slow-speed-it-up/)
+
 [Maven Command Line Options](https://books.sonatype.com/mvnref-book/reference/running-sect-options.html)
 
 ### Local Dependencies
