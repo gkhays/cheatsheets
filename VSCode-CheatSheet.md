@@ -14,6 +14,12 @@ Shift + Del
 ```
 [Delete a line in Visual Studio without copying it?](https://superuser.com/questions/194004/delete-a-line-in-visual-studio-without-copying-it)
 
+### Toggle Comment
+```
+Ctrl + K + C
+Ctrl + /
+```
+
 ### Open Terminal
 ```
 Ctrl + `
