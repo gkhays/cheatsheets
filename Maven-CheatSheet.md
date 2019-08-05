@@ -100,8 +100,6 @@ mvn -q --also-make exec:exec -Dexec.executable="pwd"
 1. [How to list the Maven build/compilation sequence based on dependencies?](https://stackoverflow.com/questions/21170453/how-to-list-the-maven-build-compilation-sequence-based-on-dependencies)
 1. [Maven Tips and Tricks: Advanced Reactor Options](https://blog.sonatype.com/2009/10/maven-tips-and-tricks-advanced-reactor-options/)
 
-[Maven Command Line Options](https://books.sonatype.com/mvnref-book/reference/running-sect-options.html)
-
 ### Local Dependencies
 
 ```xml
@@ -200,6 +198,8 @@ See [Selecting Contents for Uber JAR](https://maven.apache.org/plugins/maven-sha
 | -U,--update-snapshots  | Forces a check for missing releases and updated snapshots on remote repositories |
 | -v,--version           | Display version information |
 | -X,--debug             | Produce execution debug output |
+
+See all: [Maven Command Line Options](https://books.sonatype.com/mvnref-book/reference/running-sect-options.html)
 
 ## References
 1. [Maven - alternative .m2 directory](http://stackoverflow.com/a/16592061/6146580)
