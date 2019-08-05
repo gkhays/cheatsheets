@@ -75,7 +75,31 @@ mvn -T 1C
 ```
 [Your Maven build is slow. Speed it up!](https://jrebel.com/rebellabs/your-maven-build-is-slow-speed-it-up/)
 
+### List Modules and Directories
+Reactor Build Order
+```
+mvn validate
+```
+
+List modules by Artifact ID
+**Note**: On Windows, use double quotes (`"`) in the `awk` statement
+```
+mvn --also-make dependency:tree | grep maven-dependency-plugin | awk '{ print $(NF-1) }'
+```
+This variant does not require `awk`.
+```
+mvn -Dexec.executable='echo' -Dexec.args='${project.artifactId}' exec:exec -q
+```
+
+List Module Directories
+```
+mvn -q --also-make exec:exec -Dexec.executable="pwd"
+```
+[How to list active sub-modules in a Maven project?](https://stackoverflow.com/questions/3662291/how-to-list-active-sub-modules-in-a-maven-project)
+
 [Maven Command Line Options](https://books.sonatype.com/mvnref-book/reference/running-sect-options.html)
+[How to list the Maven build/compilation sequence based on dependencies?](https://stackoverflow.com/questions/21170453/how-to-list-the-maven-build-compilation-sequence-based-on-dependencies)
+[Maven Tips and Tricks: Advanced Reactor Options](https://blog.sonatype.com/2009/10/maven-tips-and-tricks-advanced-reactor-options/)
 
 ### Local Dependencies
 
