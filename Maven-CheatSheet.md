@@ -82,11 +82,12 @@ mvn validate
 ```
 
 List modules by Artifact ID
+
 **Note**: On Windows, use double quotes (`"`) in the `awk` statement
 ```
 mvn --also-make dependency:tree | grep maven-dependency-plugin | awk '{ print $(NF-1) }'
 ```
-This variant does not require `awk`.
+This variant does not require `awk`. As above, use double quotes for Windows.
 ```
 mvn -Dexec.executable='echo' -Dexec.args='${project.artifactId}' exec:exec -q
 ```
