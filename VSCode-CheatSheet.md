@@ -1,5 +1,11 @@
 # VS Code Cheat Sheet
 
+### Go to Symbol
+```
+Ctrl+Shift+O
+```
+[Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved)
+
 ### Code Formatting
 
 * On Windows `Shift + Alt + F`
