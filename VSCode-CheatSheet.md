@@ -2,7 +2,7 @@
 
 ### Go to Symbol
 ```
-Ctrl+Shift+O
+Ctrl + Shift + O
 ```
 [Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved)
 
