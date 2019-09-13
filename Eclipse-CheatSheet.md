@@ -64,6 +64,14 @@ Open type hierarchy to show subclasses of a class or interface.
 
 [Eclipse HotKey: how to switch between tabs?](https://stackoverflow.com/a/2332440)
 
+20. Lowercase or uppercase a string
+```
+CTRL + Shift + Y - to lowercase
+CTRL + Shift + X - to uppercase
+```
+
+[Changing the case of a string in Eclipse](https://stackoverflow.com/a/6793612/6146580)
+
 Help >> Help Contents >> Java Development User Guide >> Reference >> Menus and Actions
 
 ![Eclipse Menus and Actions](images/eclipse-menus-actions.png)
