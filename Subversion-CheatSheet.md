@@ -21,6 +21,13 @@ M       mathops.c
 Source: [SVN - How to commit multiple files in a single shot](https://stackoverflow.com/a/4335763/6146580)<br/>
 Reference: [svn changelist (cl)](http://svnbook.red-bean.com/en/1.6/svn.ref.svn.c.changelist.html)
 
+### Update Repo URL
+```
+$ svn relocate https://sub.someaddress.com.tr/project
+```
+
+[Change SVN repository URL](https://stackoverflow.com/a/13944343/6146580)
+
 ### SVN Result Codes
 ```bash
 $ svn help status
