@@ -41,11 +41,11 @@ $ svn help status
       '!' item is missing (removed by non-svn command) or incomplete
       '~' versioned item obstructed by some item of a different kind
 ```
-The StackOverflow article also has an interesting one-liner.
+The StackOverflow article also has an helpful one-liner.
 ```bash
 svn help status | grep \'\?\'
 svn help status | grep \'\!\'
 svn help status | grep \'\YOUR_SYMBOL_HERE\'
 ```
 
-[What do the result codes in SVN mean?](https://stackoverflow.com/a/40470073/6146580)
+[What do the result codes in SVN mean?](https://stackoverflow.com/a/2036/6146580)
