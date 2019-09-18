@@ -23,7 +23,7 @@ Reference: [svn changelist (cl)](http://svnbook.red-bean.com/en/1.6/svn.ref.svn.
 
 ### SVN Result Codes
 ```bash
-svn help status
+$ svn help status
 ```
 
 ```
