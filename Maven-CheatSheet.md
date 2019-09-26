@@ -6,15 +6,20 @@ mvn -q -Dexec.executable="echo" -Dexec.args='${project.version}' --non-recursive
 1.0.0-SNAPSHOT
 ```
 
-### Run a single test
+### Run a single test case
 ```
 mvn -Dtest=<file> test
+```
+Run a single test method
+```
+mvn -Dtest=TestClass#testMethod test
 ```
 Debug tests -- tests will pause and await remote debugger on port 5005
 ```
 mvn -Dtest=<file> -Dmaven.surefire.debug test
 ```
-See [Maven - Debugging Tests](https://maven.apache.org/surefire/maven-surefire-plugin/examples/debugging.html)
+See [Maven - Debugging Tests](https://maven.apache.org/surefire/maven-surefire-plugin/examples/debugging.html)<br/>
+See also: [How to run unit test with Maven](https://www.mkyong.com/maven/how-to-run-unit-test-with-maven/)
 
 ### Remove platform encoding warning
 ```xml
