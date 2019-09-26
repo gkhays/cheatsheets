@@ -4,6 +4,7 @@
 ```bash
 $ svn merge -r HEAD:PREV <file>
 ```
+Related: [How do I return to an older version of our code in Subversion?](https://stackoverflow.com/a/814436/6146580)
 
 ### Commit with a changelist
 ```bash
