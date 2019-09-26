@@ -1,5 +1,10 @@
 # Subversion Cheat Sheet
 
+### Revert the change to a single file
+```bash
+$ svn merge -r HEAD:PREV <file>
+```
+
 ### Commit with a changelist
 ```bash
 $ svn changelist my-changelist mydir/dir1/file1.c mydir/dir2/myfile1.h
