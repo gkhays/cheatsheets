@@ -38,6 +38,11 @@ See also: [How to run unit test with Maven](https://www.mkyong.com/maven/how-to-
 mvn dependency:tree
 ```
 
+### Purge local Maven repository
+```bash
+mvn dependency:purge-local-repository
+```
+
 ### Override local repository
 ```bash
 mvn -Dmaven.repo.local=/build/.m2/repository
@@ -218,6 +223,7 @@ See all: [Maven Command Line Options](https://books.sonatype.com/mvnref-book/ref
 
 ## References
 1. [Maven - alternative .m2 directory](http://stackoverflow.com/a/16592061/6146580)
-2. [How to Override the Maven Local Repository setting](https://confluence.atlassian.com/bamkb/how-to-override-the-maven-local-repository-setting-838546993.html)
-3. Maven logging: [Maven logging and the command line](https://binkley.blogspot.com/2017/04/maven-logging-and-command-line.html) and [How to change maven logging level...](https://stackoverflow.com/a/19319402/6146580).
-4. [Maven CLI Options Reference](https://maven.apache.org/ref/3.6.0/maven-embedder/cli.html)
+1. [How to Override the Maven Local Repository setting](https://confluence.atlassian.com/bamkb/how-to-override-the-maven-local-repository-setting-838546993.html)
+1. Maven logging: [Maven logging and the command line](https://binkley.blogspot.com/2017/04/maven-logging-and-command-line.html) and [How to change maven logging level...](https://stackoverflow.com/a/19319402/6146580).
+1. [Maven CLI Options Reference](https://maven.apache.org/ref/3.6.0/maven-embedder/cli.html)
+1. [Purging local repository dependencies](https://maven.apache.org/plugins/maven-dependency-plugin/examples/purging-local-repository.html)
