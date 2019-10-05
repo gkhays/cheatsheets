@@ -155,3 +155,4 @@ $ docker build -t dev:latest .
 * [How to remove \<none\> images after building](https://forums.docker.com/t/how-to-remove-none-images-after-building/7050/10)
 * [How To Remove Docker Images, Containers, and Volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
 * [How to list the content of a named volume in docker 1.9+?](https://stackoverflow.com/a/36330903)
+* [How to persist data in a dockerized postgres database using volumes](https://stackoverflow.com/a/45606440)
