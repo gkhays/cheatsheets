@@ -124,6 +124,16 @@ $ docker volume prune
 $ docker volume prune -f # Bypasses prompt
 ```
 
+#### Create a named volume
+```bash
+$ docker volume create db_data
+```
+
+#### Create a minimal container to view a volume's files
+```bash
+docker run --rm -i -v=postgres-data:/tmp/myvolume busybox find /tmp/myvolume
+```
+
 #### Rebuild when composing
 ```bash
 $ docker-compose up -d --build
@@ -144,3 +154,4 @@ $ docker build -t dev:latest .
 * [How to remove old and unused Docker images](http://stackoverflow.com/a/32723127/6146580)
 * [How to remove \<none\> images after building](https://forums.docker.com/t/how-to-remove-none-images-after-building/7050/10)
 * [How To Remove Docker Images, Containers, and Volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
+* [How to list the content of a named volume in docker 1.9+?](https://stackoverflow.com/a/36330903)
