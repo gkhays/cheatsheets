@@ -112,9 +112,16 @@ $ docker rmi $(docker images | grep "^<none>" | awk '{print $3}')
 $ docker images -q -a | xargs --no-run-if-empty docker rmi
 ```
 
+#### List volumes
+```bash
+$docker volume ls
+$docker volume ls -f dangling=true
+```
+
 #### Remove all unused volumes
 ```bash
-$ docker volume prune -f
+$ docker volume prune
+$ docker volume prune -f # Bypasses prompt
 ```
 
 #### Rebuild when composing
