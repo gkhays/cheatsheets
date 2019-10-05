@@ -27,6 +27,15 @@ M       mathops.c
 Source: [SVN - How to commit multiple files in a single shot](https://stackoverflow.com/a/4335763/6146580)<br/>
 Reference: [svn changelist (cl)](http://svnbook.red-bean.com/en/1.6/svn.ref.svn.c.changelist.html)
 
+### Simulate Git Stash
+```bash
+svn diff > patch_name.patch; svn revert -R .    # git stash
+patch -p0 < patch_name.patch                    # git stash apply
+```
+
+Source: [Temporarily put away uncommitted changes in Subversion (a la “git-stash”)](https://stackoverflow.com/a/3391053)
+See also: [Using patch as a subversion stash](http://blog.jayfields.com/2008/02/using-patch-as-subversion-stash.html) by Jay Fields
+
 ### Update Repo URL
 ```
 $ svn relocate https://sub.someaddress.com.tr/project
