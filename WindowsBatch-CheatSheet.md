@@ -49,6 +49,16 @@ echo %USAGE%
 endlocal
 ```
 
+### SETX is Persistent
+
+```bat
+setx /m JAVA_HOME=C:\Program Files\Zulu\zulu-8\
+```
+
+Where the `/m` switch sets the variable system wide, e.g. `HKEY_LOCAL_MACHINE` instead of the deafulat `HKEY_CURRENT_USER`.
+
+[What is the difference between SETX and SET in environment variables in Windows](https://superuser.com/a/916652/1100004)
+
 ### Retrieve IP Address into Variable
 
 ```bat
