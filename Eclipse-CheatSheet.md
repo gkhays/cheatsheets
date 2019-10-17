@@ -73,9 +73,9 @@ CTRL + Shift + X - to uppercase
 [Changing the case of a string in Eclipse](https://stackoverflow.com/a/6793612/6146580)
 
 21. How to increase console buffer size
-Preferences >> Run/Debug
 
-[] Uncheck Limit console output
+Preferences >> Run/Debug<br/>
+Then Uncheck Limit console output
 
 [How to Increase Console Buffer Size in Eclipse IDE - Output and Debug Console](https://javarevisited.blogspot.com/2013/03/how-to-increase-console-buffer-size-in.html)
 
