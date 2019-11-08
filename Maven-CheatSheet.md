@@ -152,6 +152,15 @@ Where: <path-to-file>  the path to the file to load
    <packaging>     the packaging of the file e.g. jar
 ```
 
+### Generate Maven Project
+
+```bash
+mvn -B archetype:generate
+    -DarchetypeGroupId=org.apache.maven.archetypes
+    -DgroupId=com.log4j.maven
+    -DartifactId=dependency-example
+```
+
 ## Plugins
 
 ### Shade or Uber JAR
