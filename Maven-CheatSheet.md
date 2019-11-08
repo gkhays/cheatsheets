@@ -160,6 +160,7 @@ mvn -B archetype:generate
     -DgroupId=com.log4j.maven
     -DartifactId=dependency-example
 ```
+[Fix broken builds with this log4j Maven dependency example](https://www.theserverside.com/tutorial/Fix-broken-builds-with-this-log4j-Maven-dependency-example)
 
 ## Plugins
 
