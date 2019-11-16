@@ -21,14 +21,6 @@ mvn -Dtest=<file> -Dmaven.surefire.debug test
 See [Maven - Debugging Tests](https://maven.apache.org/surefire/maven-surefire-plugin/examples/debugging.html)<br/>
 See also: [How to run unit test with Maven](https://www.mkyong.com/maven/how-to-run-unit-test-with-maven/)
 
-### Execute a specific plugin goal by ID
-```bash
-mvn sql:execute@create-db
-```
-See [Maven plugin execution ID](https://stackoverflow.com/a/33279426/6146580)<br/>
-See also: [Run a single Maven plugin execution?](https://stackoverflow.com/a/28778436/6146580)z<br/>
-See also: [SQL Maven Plugin#Executions](https://www.mojohaus.org/sql-maven-plugin/examples/execute.html)
-
 ### Remove platform encoding warning
 ```xml
 <project ...>
@@ -172,6 +164,14 @@ mvn -B archetype:generate
 
 ## Plugins
 
+### Execute a specific plugin goal by ID
+```bash
+mvn sql:execute@create-db
+```
+See [Maven plugin execution ID](https://stackoverflow.com/a/33279426/6146580)<br/>
+See also: [Run a single Maven plugin execution?](https://stackoverflow.com/a/28778436/6146580)z<br/>
+See also: [SQL Maven Plugin#Executions](https://www.mojohaus.org/sql-maven-plugin/examples/execute.html)
+
 ### Shade or Uber JAR
 
 Automatically remove classes not being used.
@@ -217,6 +217,18 @@ See [Selecting Contents for Uber JAR](https://maven.apache.org/plugins/maven-sha
 </plugin>
 ```
 [Maven Release Plugin > Prepare a Release](https://maven.apache.org/maven-release/maven-release-plugin/examples/prepare-release.html)
+
+## Maven Lifecycle
+
+```
+Lifecycle default -> [validate, initialize, generate-sources, process-sources, 
+generate-resources, process-resources, compile, process-classes, generate-test-sources, 
+process-test-sources, generate-test-resources, process-test-resources, test-compile, 
+process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, 
+post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+```
 
 ## Command Line Options
 (Frequently used by me)
