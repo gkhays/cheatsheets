@@ -21,6 +21,14 @@ mvn -Dtest=<file> -Dmaven.surefire.debug test
 See [Maven - Debugging Tests](https://maven.apache.org/surefire/maven-surefire-plugin/examples/debugging.html)<br/>
 See also: [How to run unit test with Maven](https://www.mkyong.com/maven/how-to-run-unit-test-with-maven/)
 
+### Execute a specific plugin goal by ID
+```bash
+mvn sql:execute@create-db
+```
+See [Maven plugin execution ID](https://stackoverflow.com/a/33279426/6146580)<br/>
+See also: [Run a single Maven plugin execution?](https://stackoverflow.com/a/28778436/6146580)z<br/>
+See also: [SQL Maven Plugin#Executions](https://www.mojohaus.org/sql-maven-plugin/examples/execute.html)
+
 ### Remove platform encoding warning
 ```xml
 <project ...>
