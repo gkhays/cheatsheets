@@ -17,3 +17,14 @@ Type in the new name and click on Rename.
 ![Rename](images/rename.png)
 
 See http://stackoverflow.com/a/2042020/6146580.
+
+### Close issues using keywords
+
+```
+fix #n
+close #n
+resolve #n
+```
+
+* [Link to the issue number on GitHub within a commit message](https://stackoverflow.com/a/6742691/6146580)
+* [Closing issues using keywords](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords)
