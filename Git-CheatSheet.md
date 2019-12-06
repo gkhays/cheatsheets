@@ -37,6 +37,17 @@ git reset --hard HEAD^
 ```
 See [Is there any way to undo the effects of “git revert head”?](https://stackoverflow.com/a/3662556/6146580).
 
+#### Remove a file from a Git repository without deleting it from the local
+For single file:
+```bash
+git rm --cached mylogfile.log
+```
+For single directory:
+```bash
+git rm --cached -r mydirectory
+```
+[--bdonlan](https://stackoverflow.com/a/1143800/6146580)
+
 #### Move uncommitted work to a new branch
 
 ```bash
