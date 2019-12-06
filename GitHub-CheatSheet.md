@@ -18,7 +18,7 @@ Type in the new name and click on Rename.
 
 See http://stackoverflow.com/a/2042020/6146580.
 
-### Close issues using keywords
+### Close issues using keywords in commit message
 
 ```
 fix #n
