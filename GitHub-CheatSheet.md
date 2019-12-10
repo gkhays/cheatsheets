@@ -28,3 +28,4 @@ resolve #n
 
 * [Link to the issue number on GitHub within a commit message](https://stackoverflow.com/a/6742691/6146580)
 * [Closing issues using keywords](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords)
+* [Mastering Issues](https://guides.github.com/features/issues/)
