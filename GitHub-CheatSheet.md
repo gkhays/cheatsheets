@@ -6,7 +6,7 @@
 git remote add origin https://github.com/VijayNew/NewExample.git
 ```
 
-See http://stackoverflow.com/a/25504199/6146580.
+See [Why does Git tell me “No such remote 'origin'” when I try to push to origin?](http://stackoverflow.com/a/25504199/6146580).
 
 ### Rename a repository
 
