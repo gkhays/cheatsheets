@@ -35,3 +35,4 @@ resolve #n
 ## References
 
 [GitHub Secrets](https://github.blog/2011-10-21-github-secrets/)
+[How to rename a directory/folder on GitHub website?](https://stackoverflow.com/a/32620165/6146580)
