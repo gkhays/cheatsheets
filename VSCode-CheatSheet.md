@@ -78,8 +78,13 @@ Output:
 Settings >> Editor: Format On Save
 ```
 
-* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-* [Visual Studio Code extension for Prettier](https://github.com/prettier/prettier-vscode) (GitHub)
+[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) ([On GitHub](https://github.com/prettier/prettier-vscode))
+
+### CSS Peek
+
+`Go To Definition` and `Go To Symbol in Workspace` support for `CSS`.
+
+[CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
 ### Visual Studio IntelliCode
 ### Remote-WSL
