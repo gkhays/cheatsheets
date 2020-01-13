@@ -14,6 +14,8 @@ Ctrl + Shift + O
 
 https://stackoverflow.com/a/29973358/6146580
 
+See also the `Prettier` VSCode Extension.
+
 ### Delete Line
 ```
 Shift + Del
@@ -69,6 +71,16 @@ Output:
 ### GitLens
 ### Docker
 ### REST Client
+
+### Prettier
+
+```
+Settings >> Editor: Format On Save
+```
+
+* [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [Visual Studio Code extension for Prettier](https://github.com/prettier/prettier-vscode) (GitHub)
+
 ### Visual Studio IntelliCode
 ### Remote-WSL
 
