@@ -63,3 +63,19 @@ Output:
 </body>
 </html>
 ```
+
+## Extensions
+
+### GitLens
+### Docker
+### REST Client
+### Visual Studio IntelliCode
+### Remote-WSL
+
+### Live Server
+* [Live Server | VSCode Extension](https://ritwickdey.github.io/vscode-live-server/)
+* [VSCode Live Server](https://github.com/ritwickdey/vscode-live-server) (GitHub)
+
+### Python
+### Shades of Purple
+### Peacock
