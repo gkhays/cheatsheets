@@ -82,6 +82,8 @@ Settings >> Editor: Format On Save
 
 [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) ([On GitHub](https://github.com/prettier/prettier-vscode))
 
+See also [js-beautify for VS Code](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify).
+
 ### CSS Peek
 
 `Go To Definition` and `Go To Symbol in Workspace` support for `CSS`.
