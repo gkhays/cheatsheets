@@ -43,6 +43,8 @@ https://code.visualstudio.com/docs/languages/markdown
 
 ## Emmet
 
+### New HTML Template
+
 Emmet abbreviation for new HTML document.
 
 ```
