@@ -38,3 +38,28 @@ Ctrl + `
 `Ctrl + K V` Side-by-side
 
 https://code.visualstudio.com/docs/languages/markdown
+
+## Emmet
+
+Emmet abbreviation for new HTML document.
+
+```
+! + Tab
+```
+
+Output:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
