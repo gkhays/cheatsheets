@@ -102,5 +102,10 @@ See also [js-beautify for VS Code](https://marketplace.visualstudio.com/items?it
 * [VSCode Live Server](https://github.com/ritwickdey/vscode-live-server) (GitHub)
 
 ### Python
+
+### Auto Rename Tag
+
+[Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+
 ### Shades of Purple
 ### Peacock
