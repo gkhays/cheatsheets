@@ -90,6 +90,10 @@ See also [js-beautify for VS Code](https://marketplace.visualstudio.com/items?it
 
 [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
+### Material Icon Theme
+
+[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
 ### Visual Studio IntelliCode
 ### Remote-WSL
 
