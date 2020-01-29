@@ -162,6 +162,14 @@ mvn -B archetype:generate
 ```
 [Fix broken builds with this log4j Maven dependency example](https://www.theserverside.com/tutorial/Fix-broken-builds-with-this-log4j-Maven-dependency-example)
 
+Quick Start
+
+```bash
+mvn archetype:generate \
+    -DarchetypeGroupId=org.apache.maven.archetypes \
+    -DarchetypeArtifactId=maven-archetype-quickstart
+```
+
 ## Plugins
 
 ### Execute a specific plugin goal by ID
