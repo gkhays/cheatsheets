@@ -149,6 +149,8 @@ $ docker build -t dev:latest .
 [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet) by [wsargent](https://github.com/wsargent)
 
 ## Resources
+* [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
+* [Docker Bench Security](https://github.com/docker/docker-bench-security)
 * [Remove Untagged Images From Docker](http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html)
 * [What are Docker \<none\>:\<none\> images?](http://www.projectatomic.io/blog/2015/07/what-are-docker-none-none-images/)
 * [Docker – Clean Up After Yourself!](http://blog.yohanliyanage.com/2015/05/docker-clean-up-after-yourself/)
