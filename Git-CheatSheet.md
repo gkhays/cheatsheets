@@ -86,6 +86,18 @@ git fetch origin other-branch && git merge other-branch
 
 See [Git pull a certain branch from GitHub](https://stackoverflow.com/a/1710474).
 
+#### Check out fresh local branch
+
+If the branch exists on origin but not yet locally, do the following.
+
+```bash
+git fetch
+git checkout test
+```
+
+1. [How do I check out a remote Git branch?](https://stackoverflow.com/a/1783426/6146580)
+2. [How can I switch to another branch in git?](https://stackoverflow.com/a/47631215/6146580)
+
 #### Resolve your branch is ahead of 'origin/master' by x commits
 
 ```bash
