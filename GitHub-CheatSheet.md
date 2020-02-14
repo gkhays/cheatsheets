@@ -32,7 +32,15 @@ resolve #n
 * [Closing issues using keywords](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords)
 * [Mastering Issues](https://guides.github.com/features/issues/)
 
+### GitHub Wiki Sidebar
+
+```
+npm install github-wiki-sidebar -g
+github-wiki-sidebar --git-push
+```
+
 ## References
 
 1. [GitHub Secrets](https://github.blog/2011-10-21-github-secrets/)
 1. [How to rename a directory/folder on GitHub website?](https://stackoverflow.com/a/32620165/6146580)
+1. [GitHub Wiki Sidebar](https://www.npmjs.com/package/github-wiki-sidebar)
