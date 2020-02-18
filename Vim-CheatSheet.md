@@ -10,17 +10,17 @@ gg
 
 ### Cursor movement
 
-`H` - Move to top of screen
-`M` - Move to middle of screen
-`L` - Move to bottom of screen
+`H` - Move to top of screen<br/>
+`M` - Move to middle of screen<br/>
+`L` - Move to bottom of screen<br/>
 
 ### Editing
 
-`J` - join line below
-`cc` - replace entire line
-`C` - replace to end of line
-`c$` - replace to end of line
-`u` - undo
+`J` - join line below<br/>
+`cc` - replace entire line<br/>
+`C` - replace to end of line<br/>
+`c$` - replace to end of line<br/>
+`u` - undo<br/>
 
 ## References
 
