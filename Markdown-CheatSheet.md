@@ -31,3 +31,21 @@ $ ls
 
 * [Defines all Languages known to GitHub](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 * [Syntax highlighting in markdown](https://support.codebasehq.com/articles/tips-tricks/syntax-highlighting-in-markdown)
+
+### Check Box
+
+```
+- [ ] One
+- [x] Two
+```
+
+- [ ] One
+- [x] Two
+
+### Strike-Through
+
+```
+~~strike-through
+```
+
+- [x] ~~*Show how to do strike-through*~~
