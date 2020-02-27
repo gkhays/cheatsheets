@@ -1,6 +1,6 @@
 # Markdown Cheat Sheet
 
-![logo](images/1920px-Markdown-mark.svg.png)
+![logo](images/64px-Markdown-mark.svg.png)
 
 ### Open link in new window
 `<a href="http://example.com/" target="_blank">example</a>`
