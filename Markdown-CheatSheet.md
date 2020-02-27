@@ -45,7 +45,7 @@ $ ls
 ### Strike-Through
 
 ```
-~~strike-through
+~~strike-through~~
 ```
 
 - [x] ~~*Show how to do strike-through*~~
