@@ -50,8 +50,23 @@ $ ls
 
 - [x] ~~*Show how to do strike-through*~~
 
+### Line Breaks
+
+I didn't know this one! I always used `<br/>`.
+
+To create a line break, add 2 or more spaces to the end.
+
+```
+Line one.  
+Line two.^^
+```
+
+Line one.  
+Line two.
+
 ## References
 
 1. [Daring Fireball - Markdown](https://daringfireball.net/projects/markdown/)
 1. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) by [adam-p](https://github.com/adam-p)
 1. [Markdown Syntax Guide](https://sourceforge.net/p/checkbox/wiki/markdown_syntax/) by mjaniczkova
+1. [Markdown Guide](https://www.markdownguide.org/basic-syntax)
