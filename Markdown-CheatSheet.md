@@ -49,3 +49,9 @@ $ ls
 ```
 
 - [x] ~~*Show how to do strike-through*~~
+
+## References
+
+1. [Daring Fireball - Markdown](https://daringfireball.net/projects/markdown/)
+1. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) by [adam-p](https://github.com/adam-p)
+1. [Markdown Syntax Guide](https://sourceforge.net/p/checkbox/wiki/markdown_syntax/) by mjaniczkova
