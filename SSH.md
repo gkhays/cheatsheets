@@ -1,5 +1,7 @@
 # SSH Settings
 
+- [ ] Is this really a cheat sheet? Or perhaps a longer form Gist article?
+
 ### Bash (or other) Profile
 
 Add the following to `.profile` (preferred) or `.bash_profile`
