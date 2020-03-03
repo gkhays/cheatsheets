@@ -79,6 +79,12 @@ Then Uncheck Limit console output
 
 [How to Increase Console Buffer Size in Eclipse IDE - Output and Debug Console](https://javarevisited.blogspot.com/2013/03/how-to-increase-console-buffer-size-in.html)
 
+### Java Code Style Template
+
+Navigate to Windows >> Preferences >> Java >> Code Style >> Formatter then click on the Edit... button.
+
+![Java Code Style](images/java-code-style.png)
+
 ### Eclipse Menus and Actions
 
 Help >> Help Contents >> Java Development User Guide >> Reference >> Menus and Actions
