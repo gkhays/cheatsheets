@@ -64,6 +64,16 @@ git commit -m "First commit in the new branch"
 git push -u origin feature_branch_name
 ```
 
+### Show changes to branch
+
+```
+git log master..
+git log master..<branchname>
+```
+
+[How do I run git log to see changes only for a specific branch?](https://stackoverflow.com/a/4649377/6146580)  
+[git - changes to branch since created?](https://stackoverflow.com/questions/15954631/git-changes-to-branch-since-created)
+
 #### Sync local repo with remote one
 
 ```bash
