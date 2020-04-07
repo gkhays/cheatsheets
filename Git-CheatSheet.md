@@ -64,7 +64,7 @@ git commit -m "First commit in the new branch"
 git push -u origin feature_branch_name
 ```
 
-### Show changes to branch
+#### Show changes to branch
 
 ```
 git log master..
