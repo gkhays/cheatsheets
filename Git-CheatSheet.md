@@ -82,6 +82,16 @@ git fetch --prune
 Also removes completed branch.
 [Sync local repo with remote one](https://stackoverflow.com/a/15124916/6146580)
 
+#### Syncing a fork
+
+```bash
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+
+[Working with forks / Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+
 #### Switch to a branch and sync
 
 ```bash
