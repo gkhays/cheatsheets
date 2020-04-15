@@ -240,6 +240,21 @@ git fetch --prune
 ```
 After fetching, remove any remote-tracking branches which no longer exist on the remote -- http://stackoverflow.com/a/15124916/6146580
 
+### Git Hashes
+
+```bash
+$ git describe --tags
+v1.0.1-2-g39918b9
+```
+
+```bash
+$ git rev-parse --short HEAD
+39918b9
+```
+
+[Get the short Git version hash](https://stackoverflow.com/a/5694416/6146580)  
+[git-rev-parse - Pick out and massage parameters](https://git-scm.com/docs/git-rev-parse)  
+
 ### [Flight rules for git](https://github.com/k88hudson/git-flight-rules)
 
 ### Git and Passwords
