@@ -255,6 +255,31 @@ $ git rev-parse --short HEAD
 [Get the short Git version hash](https://stackoverflow.com/a/5694416/6146580)  
 [git-rev-parse - Pick out and massage parameters](https://git-scm.com/docs/git-rev-parse)  
 
+### Diff Tools
+
+Add the following to `~/.gitconfig`.
+
+```ini
+[merge]
+	tool = bc3
+[diff]
+	tool = bc3
+[difftool "bc3"]
+	cmd = "\"C:/Program Files (x86)/Beyond Compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\""
+[mergetool "bc3"]
+	cmd = "\"c:/program files (x86)/beyond compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\""
+  ```
+  
+  Invoke the diff tool.
+  
+  ```bash
+  D:\src\test-remote (master -> origin)
+λ git difftool -t bc3 src/main/org/gkh/test/remote/JarCommand.java
+
+Viewing (1/1): 'src/main/java/org/gkh/test/remote/JarCommand.java'
+Launch 'bc3' [Y/n]? y
+  ```
+
 ### [Flight rules for git](https://github.com/k88hudson/git-flight-rules)
 
 ### Git and Passwords
