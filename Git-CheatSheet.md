@@ -127,17 +127,6 @@ git checkout test
 1. [How do I check out a remote Git branch?](https://stackoverflow.com/a/1783426/6146580)
 2. [How can I switch to another branch in git?](https://stackoverflow.com/a/47631215/6146580)
 
-#### How To Rename a Local and Remote Git Branch
-
-```bash
-git checkout <old_name>
-git branch -m <new_name>
-git push origin -u <new_name>
-git push origin --delete <old_name>
-```
-
-[How To Rename a Local and Remote Git Branch](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
-
 #### Track an Empty Directory
 
 You cannot commit a completely empty directory in Git. The convention is to add a placeholder file named `.gitkeep` to the target directory.
@@ -156,12 +145,22 @@ Typically, you would use `git reset --hard origin/master` but in this case I wan
 #### Rename a local and remote branch
 
 ```bash
+git checkout <old_name>
+git branch -m <new_name>
+git push origin -u <new_name>
+push origin --delete <old_name>
+```
+
+Or
+
+```bash
 git branch -m new-name
 git push origin :old-name new-name
 git push origin -u new-name
 ```
 
-See [Rename a local and remote branch in git](https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/)
+See [Rename a local and remote branch in git](https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/)  
+[How To Rename a Local and Remote Git Branch](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
 
 #### Remove and then ignore IDE settings
 
@@ -291,7 +290,7 @@ $ git rev-parse --short HEAD
 ```
 
 [Get the short Git version hash](https://stackoverflow.com/a/5694416/6146580)  
-[git-rev-parse - Pick out and massage parameters](https://git-scm.com/docs/git-rev-parse)  
+[git-rev-parse - Pick out and massage parameters](https://git-scm.com/docs/git-rev-parse)
 
 ### Diff Tools
 
@@ -306,17 +305,17 @@ Add the following to `~/.gitconfig`.
 	cmd = "\"C:/Program Files (x86)/Beyond Compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\""
 [mergetool "bc3"]
 	cmd = "\"c:/program files (x86)/beyond compare 3/bcomp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\""
-  ```
-  
-  Invoke the diff tool.
-  
-  ```bash
-  D:\src\test-remote (master -> origin)
+```
+
+Invoke the diff tool.
+
+```bash
+D:\src\test-remote (master -> origin)
 λ git difftool -t bc3 src/main/org/gkh/test/remote/JarCommand.java
 
 Viewing (1/1): 'src/main/java/org/gkh/test/remote/JarCommand.java'
 Launch 'bc3' [Y/n]? y
-  ```
+```
 
 ### [Flight rules for git](https://github.com/k88hudson/git-flight-rules)
 
