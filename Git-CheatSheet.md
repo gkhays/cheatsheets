@@ -5,6 +5,7 @@
 ```bash
 git checkout -f
 ```
+
 CAUTION: commit uncommitted files before executing this command, otherwise you're going to lose them all.
 
 [Undo delete in Git](http://stackoverflow.com/a/9478062/6146580)
@@ -22,6 +23,7 @@ git reset
 ```bash
 git reset HEAD~
 ```
+
 [A more detailed example](https://stackoverflow.com/a/927386/6146580)
 
 #### Discard changes in working directory
@@ -35,17 +37,23 @@ git checkout -- <file>
 ```bash
 git reset --hard HEAD^
 ```
+
 See [Is there any way to undo the effects of “git revert head”?](https://stackoverflow.com/a/3662556/6146580).
 
 #### Remove a file from a Git repository without deleting it from the local
+
 For single file:
+
 ```bash
 git rm --cached mylogfile.log
 ```
+
 For single directory:
+
 ```bash
 git rm --cached -r mydirectory
 ```
+
 [--bdonlan](https://stackoverflow.com/a/1143800/6146580)
 
 #### Move uncommitted work to a new branch
@@ -79,6 +87,7 @@ git log master..<branchname>
 ```bash
 git fetch --prune
 ```
+
 Also removes completed branch.
 [Sync local repo with remote one](https://stackoverflow.com/a/15124916/6146580)
 
@@ -118,11 +127,30 @@ git checkout test
 1. [How do I check out a remote Git branch?](https://stackoverflow.com/a/1783426/6146580)
 2. [How can I switch to another branch in git?](https://stackoverflow.com/a/47631215/6146580)
 
+#### How To Rename a Local and Remote Git Branch
+
+```bash
+git checkout <old_name>
+git branch -m <new_name>
+git push origin -u <new_name>
+git push origin --delete <old_name>
+```
+
+[How To Rename a Local and Remote Git Branch](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
+
+#### Track an Empty Directory
+
+You cannot commit a completely empty directory in Git. The convention is to add a placeholder file named `.gitkeep` to the target directory.
+
+1. [How can I add an empty directory to a Git repository?](https://stackoverflow.com/a/932982/6146580)
+1. [What are the differences between .gitignore and .gitkeep?](https://stackoverflow.com/a/7229996/6146580)
+
 #### Resolve your branch is ahead of 'origin/master' by x commits
 
 ```bash
 git rebase -i origin/master
 ```
+
 Typically, you would use `git reset --hard origin/master` but in this case I wanted to see how the local master differed from the remote one. See [Your branch is ahead of 'origin/master' by 3 commits](https://stackoverflow.com/a/16288283/6146580).
 
 #### Rename a local and remote branch
@@ -132,6 +160,7 @@ git branch -m new-name
 git push origin :old-name new-name
 git push origin -u new-name
 ```
+
 See [Rename a local and remote branch in git](https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/)
 
 #### Remove and then ignore IDE settings
@@ -151,6 +180,7 @@ Then add to .gitignore
 ```
 
 Example .gitignore
+
 ```bash
 # Eclipse
 .classpath
@@ -170,14 +200,19 @@ target/
 ```bash
 git remote show origin
 ```
+
 Or if referential integrity has been broken:
+
 ```bash
 git config --get remote.origin.url
 ```
+
 Or simply
+
 ```bash
 git remote -v
 ```
+
 [How can I determine the URL that a local Git repository was originally cloned from?](https://stackoverflow.com/questions/4089430/how-can-i-determine-the-url-that-a-local-git-repository-was-originally-cloned-fr)
 
 #### Change remote URL
@@ -209,12 +244,14 @@ git push --set-upstream origin developer
 ### Import repository to Bitbucket
 
 Create a new repo in bitbucket.
+
 ```bash
 git clone <gitlabRepoUrl>
 cd <repoName>
 git remote add bitbucket <bitbucketRepoUrl>
 git push bitbucket master
 ```
+
 [How to import gitlab repository to bitbucket Repository](https://stackoverflow.com/a/44106169/6146580)
 
 #### Show your configuration
@@ -238,6 +275,7 @@ git push -u origin master
 git fetch --prune
 -p, --prune
 ```
+
 After fetching, remove any remote-tracking branches which no longer exist on the remote -- http://stackoverflow.com/a/15124916/6146580
 
 ### Git Hashes
@@ -294,10 +332,10 @@ Caching your Git Password On Windows
 $ git config --global credential.helper wincred
 ```
 
-* [How do I update the password for Git?](https://stackoverflow.com/a/20195558/6146580)
-* https://git-scm.com/book/gr/v2/Git-Tools-Credential-Storage
-* [git credential helper - update password](https://stackoverflow.com/a/25846817/6146580)
-* [Caching Your Password](https://help.github.com/articles/caching-your-github-password-in-git/)
+- [How do I update the password for Git?](https://stackoverflow.com/a/20195558/6146580)
+- https://git-scm.com/book/gr/v2/Git-Tools-Credential-Storage
+- [git credential helper - update password](https://stackoverflow.com/a/25846817/6146580)
+- [Caching Your Password](https://help.github.com/articles/caching-your-github-password-in-git/)
 
 ### Possible Aliases
 
@@ -336,6 +374,7 @@ alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gsts='git stash save'
 ```
+
 From [Git Command-Line Shortcuts](https://jonsuh.com/blog/git-command-line-shortcuts/).
 
 ### Self-Signed Certificates
@@ -363,7 +402,9 @@ It is possible to globally disable certificate verification, `--global`, but the
 ```bash
 $ git config http.sslVerify false
 ```
+
 or
+
 ```bash
 $ git -c http.sslVerify=false
 ```
@@ -380,16 +421,18 @@ $ git config --system http.sslCAPath /path/to/cacerts
 git commit --amend --allow-empty --author="FirstName LastName <name@email.com>"
 git commit --amend --reset-author
 ```
-* https://stackoverflow.com/a/28425852/6146580
-* https://stackoverflow.com/a/33009142/6146580
+
+- https://stackoverflow.com/a/28425852/6146580
+- https://stackoverflow.com/a/33009142/6146580
 
 #### From WikiLeaks [Vault 7](https://wikileaks.org/ciav7p1/cms/page_1179773.html)
+
 ```bash
-# Issue: When attempting to clone (or any other command that interacts with the 
-# remote server) git by default validates the presented SSL certificate by the 
-# server.  Our server's certificate is not valid and therefore git exits out with 
-# an error. Resolution(Linux): For a one time fix, you can use the env command 
-# to create an environment variable of GIT_SSL_NO_VERIFY=TRUE. 
+# Issue: When attempting to clone (or any other command that interacts with the
+# remote server) git by default validates the presented SSL certificate by the
+# server.  Our server's certificate is not valid and therefore git exits out with
+# an error. Resolution(Linux): For a one time fix, you can use the env command
+# to create an environment variable of GIT_SSL_NO_VERIFY=TRUE.
 $ env GIT_SSL_NO_VERIFY=TRUE git <command> <arguments>
 
 
