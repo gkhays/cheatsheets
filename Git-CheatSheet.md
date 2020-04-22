@@ -127,6 +127,14 @@ git checkout test
 1. [How do I check out a remote Git branch?](https://stackoverflow.com/a/1783426/6146580)
 2. [How can I switch to another branch in git?](https://stackoverflow.com/a/47631215/6146580)
 
+#### Fetch remote branch
+
+```bash
+git checkout --track origin/daves_branch
+```
+
+[Git fetch remote branch](https://stackoverflow.com/a/9537923/6146580)
+
 #### Track an Empty Directory
 
 You cannot commit a completely empty directory in Git. The convention is to add a placeholder file named `.gitkeep` to the target directory.
