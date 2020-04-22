@@ -99,7 +99,14 @@ git checkout master
 git merge upstream/master
 ```
 
-[Working with forks / Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+[Working with forks / Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)  
+[Sync your Git Fork to the Original Repo](https://digitaldrummerj.me/git-sync-fork-to-master/)
+
+Or
+
+```bash
+git pull upstream develop
+```
 
 #### Switch to a branch and sync
 
@@ -224,9 +231,18 @@ git remote -v
 
 #### Change remote URL
 
+Origin
+
 ```bash
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+```
+
+Upstream
+
+```bash
+git remote set-url upstream https://github.com/[Original Owner Username]/[Original Repository].git
+git remote set-url upstream git@github.com:[Original Owner Username]/[Original Repository].git
 ```
 
 #### SSH URLs
