@@ -1,7 +1,7 @@
 # GitHub Cheat Sheet
 
- ### Set up remote repository from the command line
- 
+### Set up remote repository from the command line
+
 ```
 git remote add origin https://github.com/VijayNew/NewExample.git
 ```
@@ -28,9 +28,9 @@ close #n
 resolve #n
 ```
 
-* [Link to the issue number on GitHub within a commit message](https://stackoverflow.com/a/6742691/6146580)
-* [Closing issues using keywords](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords)
-* [Mastering Issues](https://guides.github.com/features/issues/)
+- [Link to the issue number on GitHub within a commit message](https://stackoverflow.com/a/6742691/6146580)
+- [Closing issues using keywords](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords)
+- [Mastering Issues](https://guides.github.com/features/issues/)
 
 ### GitHub Wiki Sidebar
 
@@ -38,6 +38,16 @@ resolve #n
 npm install github-wiki-sidebar -g
 github-wiki-sidebar --git-push
 ```
+
+## GitHub Desktop
+
+### Launch GitHub Desktop from the Command Line
+
+```
+github
+```
+
+[Ssh-agent is running. Authentication failed. I cannot push on repos I cloned using git bash. #7360](https://github.com/desktop/desktop/issues/7360#issuecomment-578807630)
 
 ## References
 
