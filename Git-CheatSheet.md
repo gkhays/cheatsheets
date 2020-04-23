@@ -100,7 +100,8 @@ git merge upstream/master
 ```
 
 [Working with forks / Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)  
-[Sync your Git Fork to the Original Repo](https://digitaldrummerj.me/git-sync-fork-to-master/)
+[Sync your Git Fork to the Original Repo](https://digitaldrummerj.me/git-sync-fork-to-master/)  
+[How do I update a GitHub forked repository?](https://stackoverflow.com/a/7244456/6146580)
 
 Or
 
@@ -315,6 +316,27 @@ $ git rev-parse --short HEAD
 
 [Get the short Git version hash](https://stackoverflow.com/a/5694416/6146580)  
 [git-rev-parse - Pick out and massage parameters](https://git-scm.com/docs/git-rev-parse)
+
+### Diff and Merge
+
+#### Compare Two Git Branches
+
+```bash
+gti diff patch/feat36..develop
+git log patch/feat36..develop
+git log --oneline --graph --decorate --abbrev-commit patch/ig36..develop
+```
+
+#### Compare a file between two Git branches
+
+```bash
+git diff patch/feat35...patch/feat36 Jenkinsfile
+```
+
+[How To Compare Two Git Branches](https://devconnected.com/how-to-compare-two-git-branches/)  
+[Comparing two branches in Git?](https://stackoverflow.com/a/9834872/6146580)  
+[Showing which files have changed between two revisions](https://stackoverflow.com/a/822859/6146580)  
+[git-diff - Show changes between commits, commit and working tree, etc](https://git-scm.com/docs/git-diff)
 
 ### Diff Tools
 
