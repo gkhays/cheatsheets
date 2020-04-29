@@ -1,5 +1,19 @@
 # Git Cheat Sheet
 
+#### Delete a local branch
+
+```bash
+git branch -d feature/login
+```
+
+[How can I delete branches in Git?](https://www.git-tower.com/learn/git/faq/delete-remote-branch)
+
+#### Delete a remote branch
+
+```bash
+git push origin --delete feature/login
+```
+
 #### Undo a delete
 
 ```bash
