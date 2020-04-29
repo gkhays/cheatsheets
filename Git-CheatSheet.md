@@ -14,6 +14,8 @@ git branch -d feature/login
 git push origin --delete feature/login
 ```
 
+[Can you delete multiple branches in one command with Git?](https://stackoverflow.com/a/47304256/6146580)
+
 #### Undo a delete
 
 ```bash
