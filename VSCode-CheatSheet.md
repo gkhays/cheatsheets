@@ -1,34 +1,40 @@
 # VS Code Cheat Sheet
 
 ### Go to Symbol
+
 ```
 Ctrl + Shift + O
 ```
+
 [Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved)
 
 ### Code Formatting
 
-* On Windows `Shift + Alt + F`
-* On Mac `Shift + Option + F`
-* On Ubuntu `Ctrl + Shift + I`
+- On Windows `Shift + Alt + F`
+- On Mac `Shift + Option + F`
+- On Ubuntu `Ctrl + Shift + I`
 
 https://stackoverflow.com/a/29973358/6146580
 
 See also the `Prettier` VSCode Extension.
 
 ### Delete Line
+
 ```
 Shift + Del
 ```
+
 [Delete a line in Visual Studio without copying it?](https://superuser.com/questions/194004/delete-a-line-in-visual-studio-without-copying-it)
 
 ### Toggle Comment
+
 ```
 Ctrl + K + C
 Ctrl + /
 ```
 
 ### Open Terminal
+
 ```
 Ctrl + `
 ```
@@ -56,22 +62,33 @@ Output:
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body></body>
 </html>
 ```
+
+## Java
+
+### Organize imports
+
+```
+Alt + Shift + O (Windows)
+Option + Shift + O (Mac)
+```
+
+[Is there a way to remove unused imports and declarations from Angular 2+?](https://stackoverflow.com/a/46722805/6146580)
 
 ## Extensions
 
 ### GitLens
+
 ### Docker
+
 ### REST Client
 
 ### Prettier
@@ -95,11 +112,13 @@ See also [js-beautify for VS Code](https://marketplace.visualstudio.com/items?it
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 ### Visual Studio IntelliCode
+
 ### Remote-WSL
 
 ### Live Server
-* [Live Server | VSCode Extension](https://ritwickdey.github.io/vscode-live-server/)
-* [VSCode Live Server](https://github.com/ritwickdey/vscode-live-server) (GitHub)
+
+- [Live Server | VSCode Extension](https://ritwickdey.github.io/vscode-live-server/)
+- [VSCode Live Server](https://github.com/ritwickdey/vscode-live-server) (GitHub)
 
 ### Python
 
@@ -108,4 +127,5 @@ See also [js-beautify for VS Code](https://marketplace.visualstudio.com/items?it
 [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
 ### Shades of Purple
+
 ### Peacock
