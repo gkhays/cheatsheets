@@ -1,10 +1,20 @@
 # VS Code Cheat Sheet
 
+### Go to File
+
+```
+Ctrl + P
+```
+
+My replacement for `Ctrl + Shift + R` in Eclipse.
+
 ### Go to Symbol
 
 ```
 Ctrl + Shift + O
 ```
+
+My replacement for `Ctrl + O` in Eclipse.
 
 [Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved)
 
