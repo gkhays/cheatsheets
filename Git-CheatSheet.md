@@ -90,7 +90,8 @@ git push -u origin feature_branch_name
 
 `-u` is short for `--set-upstream`
 
-[How do I push a new local branch to a remote Git repository and track it too?](https://stackoverflow.com/a/6232535/6146580)
+[How do I push a new local branch to a remote Git repository and track it too?](https://stackoverflow.com/a/6232535/6146580)  
+[git-push - Update remote refs along with associated objects](https://git-scm.com/docs/git-push)
 
 #### Show changes to branch
 
