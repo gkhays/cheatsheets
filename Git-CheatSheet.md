@@ -88,6 +88,10 @@ git commit -m "First commit in the new branch"
 git push -u origin feature_branch_name
 ```
 
+`-u` is short for `--set-upstream`
+
+[How do I push a new local branch to a remote Git repository and track it too?](https://stackoverflow.com/a/6232535/6146580)
+
 #### Show changes to branch
 
 ```
