@@ -57,6 +57,18 @@ Ctrl + `
 
 https://code.visualstudio.com/docs/languages/markdown
 
+## Open with VS Code
+
+I wasn't paying attention to the installer and missed this feature. 😦
+
+![Open with Code](images/open-with-code.png)
+
+`Computer\HKEY_CLASSES_ROOT\Directory\shell\vscode`
+
+![Win Reg](images/vscode-reg.png)
+
+[Open with VS Code from right click in Windows Explorer](https://github.com/Microsoft/vscode/issues/12147)
+
 ## Emmet
 
 ### New HTML Template
