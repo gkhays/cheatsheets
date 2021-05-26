@@ -69,9 +69,13 @@ I wasn't paying attention to the installer and missed this feature. 😦
 
 [Open with VS Code from right click in Windows Explorer](https://github.com/Microsoft/vscode/issues/12147)
 
-## Emmet
+## HTML
 
-### New HTML Template
+[HTML in Visual Studio Code](https://code.visualstudio.com/Docs/languages/html)
+
+### Emmet
+
+#### New HTML Template
 
 Emmet abbreviation for new HTML document.
 
