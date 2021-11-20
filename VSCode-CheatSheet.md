@@ -18,6 +18,14 @@ My replacement for `Ctrl + O` in Eclipse.
 
 [Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved)
 
+### Edit Settings.json
+
+```
+Ctrl + Shift + P
+```
+
+Then type "open settings."
+
 ### Code Formatting
 
 - On Windows `Shift + Alt + F`
