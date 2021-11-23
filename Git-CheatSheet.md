@@ -93,6 +93,17 @@ git push -u origin feature_branch_name
 [How do I push a new local branch to a remote Git repository and track it too?](https://stackoverflow.com/a/6232535/6146580)  
 [git-push - Update remote refs along with associated objects](https://git-scm.com/docs/git-push)
 
+#### Clone a single branch
+
+```bash
+git clone <url> --single-branch
+
+# Longer form
+git clone <url> --branch <branch> --single-branch [<folder>]
+```
+
+[How do I clone a single branch in Git?](https://stackoverflow.com/a/9920956/6146580)
+
 #### Show changes to branch
 
 ```
