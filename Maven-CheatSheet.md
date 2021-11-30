@@ -28,6 +28,19 @@ mvn -Dtest=<file> -Dmaven.surefire.debug test
 See [Maven - Debugging Tests](https://maven.apache.org/surefire/maven-surefire-plugin/examples/debugging.html)<br/>
 See also: [How to run unit test with Maven](https://www.mkyong.com/maven/how-to-run-unit-test-with-maven/)
 
+### Property references
+
+```
+project.build.sourceDirectory
+project.build.scriptSourceDirectory
+project.build.testSourceDirectory
+project.build.outputDirectory
+project.build.testOutputDirectory
+project.build.directory
+```
+
+See [Maven project.build.directory](DevOps Standup)  
+
 ### Remove platform encoding warning
 
 ```xml
