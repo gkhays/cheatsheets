@@ -39,7 +39,7 @@ project.build.testOutputDirectory
 project.build.directory
 ```
 
-See [Maven project.build.directory](DevOps Standup)  
+See [Maven project.build.directory](https://stackoverflow.com/a/13354567/6146580)  
 
 ### Remove platform encoding warning
 
