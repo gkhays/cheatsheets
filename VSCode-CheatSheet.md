@@ -77,6 +77,23 @@ I wasn't paying attention to the installer and missed this feature. 😦
 
 [Open with VS Code from right click in Windows Explorer](https://github.com/Microsoft/vscode/issues/12147)
 
+## Java
+
+### JVM Arguments
+
+In `launch.json`
+
+```json
+"vmArgs": [
+    "-Xms256m",
+    "-Xmx256m",
+    "-XX:+HeapDumpOnOutOfMemoryError",
+    "-XX:HeapDumpPath=${workspaceFolder}/gc.hprof"
+]
+```
+
+[Launch Options](https://code.visualstudio.com/docs/java/java-debugging#_launch)
+
 ## HTML
 
 [HTML in Visual Studio Code](https://code.visualstudio.com/Docs/languages/html)
