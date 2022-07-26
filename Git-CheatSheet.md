@@ -72,6 +72,18 @@ git rm --cached -r mydirectory
 
 [--bdonlan](https://stackoverflow.com/a/1143800/6146580)
 
+#### List commits with short hash
+
+```bash
+git log --oneline --decorate --abbrev-commit -n 20
+```
+
+Show graph.
+
+```bash
+git log --oneline --decorate --abbrev-commit -n 20 --graph
+```
+
 #### Move uncommitted work to a new branch
 
 ```bash
