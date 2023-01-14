@@ -2,6 +2,8 @@
 
 ### Windows Security
 
+Sometimes called the [Secure attention key](https://en.wikipedia.org/wiki/Secure_attention_key).
+
 ```
 CTRL + ALT + END
 ```
@@ -24,4 +26,5 @@ CTRL + ALT + PLUS SIGN (+)
 
 ## References
 
-[Remote Desktop Services Shortcut Keys](https://learn.microsoft.com/en-us/windows/win32/termserv/terminal-services-shortcut-keys)
+[Remote Desktop Services Shortcut Keys](https://learn.microsoft.com/en-us/windows/win32/termserv/terminal-services-shortcut-keys)  
+[What's the rationale behind Ctrl-Alt-Del for login](https://security.stackexchange.com/a/34975)  
