@@ -1,5 +1,13 @@
 # Git Cheat Sheet
 
+#### Show the current branch
+
+```bash
+git rev-parse --abbrev-ref HEAD
+```
+
+[Show just the current branch in Git](https://stackoverflow.com/a/1418022)
+
 #### Delete a local branch
 
 ```bash
