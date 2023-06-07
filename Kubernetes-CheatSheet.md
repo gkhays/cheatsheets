@@ -7,6 +7,8 @@ kubectl config set-context --current --namespace applications
 kubectl config use-context $EKS_CLUSTER_ARN
 ```
 
+I mostly use [kubectx](https://github.com/ahmetb/kubectx) but it is helpful to know how to do it in `kubectl`.
+
 ### Get deployments
 
 ```console
