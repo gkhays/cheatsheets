@@ -32,6 +32,14 @@ resolve #n
 - [Closing issues using keywords](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords)
 - [Mastering Issues](https://guides.github.com/features/issues/)
 
+### Link to an issue or PR in a different repo
+
+```md
+jlord/sheetsee.js#26
+```
+
+- [Issues and pull requests](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#issues-and-pull-requests)
+
 ### GitHub Wiki Sidebar
 
 ```
