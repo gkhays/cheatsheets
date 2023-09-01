@@ -94,6 +94,15 @@ In `launch.json`
 
 [Launch Options](https://code.visualstudio.com/docs/java/java-debugging#_launch)
 
+### Organize imports
+
+```
+Alt + Shift + O (Windows)
+Option + Shift + O (Mac)
+```
+
+[Is there a way to remove unused imports and declarations from Angular 2+?](https://stackoverflow.com/a/46722805/6146580)
+
 ## HTML
 
 [HTML in Visual Studio Code](https://code.visualstudio.com/Docs/languages/html)
@@ -123,20 +132,20 @@ Output:
 </html>
 ```
 
-## Java
-
-### Organize imports
-
-```
-Alt + Shift + O (Windows)
-Option + Shift + O (Mac)
-```
-
-[Is there a way to remove unused imports and declarations from Angular 2+?](https://stackoverflow.com/a/46722805/6146580)
-
 ## Extensions
 
 ### GitLens
+
+#### Accept All Incoming Changes
+
+```console
+Ctrl+Shift+P merge
+Merge Conflict: Accept All Incoming
+```
+
+![Merge](images/vscode-merge.png)
+
+[How can I accept all current changes in VSCode at once?](https://stackoverflow.com/a/59574283)
 
 ### Docker
 
