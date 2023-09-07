@@ -22,7 +22,16 @@ gg
 `c$` - replace to end of line<br/>
 `u` - undo<br/>
 
+### Sorting
+
+Sort rows.
+
+```
+:%!sort
+```
+
 ## References
 
 1. [Go to first line in a file in vim?](https://stackoverflow.com/a/5507386/6146580)
 1. [Vim Cheat Sheet](https://vim.rtorr.com/)
+1. [sort rows in 'VI' editor](https://stackoverflow.com/a/3861516)
