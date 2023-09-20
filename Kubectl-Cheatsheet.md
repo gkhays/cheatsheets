@@ -1,6 +1,6 @@
 ### Namespaces
 
-Show all namespaces.
+#### Show all namespaces.
 
 ```console
 kubectl --all-namespaces
@@ -14,21 +14,21 @@ kubectl -A
 
 ## Logging
 
-```
+```console
 kubectl --namespace my-namespace get pods
 ```
 
-```
+```console
 kubectl logs pod-name
 ```
 
-```
+```console
 kubectl logs <pod_name> -n <namespace> --since=12h --timestamps
 ```
 
 ### Tail logs
 
-```
+```console
 kubectl -f
 ```
 
