@@ -12,7 +12,7 @@ Shorthand
 kubectl -A
 ```
 
-### Logging
+## Logging
 
 ```
 kubectl --namespace my-namespace get pods
@@ -26,19 +26,19 @@ kubectl logs pod-name
 kubectl logs <pod_name> -n <namespace> --since=12h --timestamps
 ```
 
-Tail logs
+### Tail logs
 
 ```
 kubectl -f
 ```
 
-Previous logs
+#### Previous logs
 
 ```
 -p
 ```
 
-Last 20 rows
+#### Last 20 rows
 
 ```
 --tail=20
