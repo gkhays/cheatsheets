@@ -27,6 +27,14 @@ kubectl get pods -o wide -n bridge
 kubectl describe pods/bridge-client-876b58b4d-tsbhc -n bridge
 ```
 
+### Shell into a pod
+
+```console
+kubectl exec -it --namespace=tools mongo-pod -- bash -c "mongo"
+```
+
+Double dash separates the kubectl arguments from what is to be run inside the pod.
+
 ### Get component status
 
 ```console
