@@ -385,12 +385,18 @@ git log --oneline --graph --decorate --abbrev-commit patch/ig36..develop
 git diff patch/feat35...patch/feat36 Jenkinsfile
 ```
 
+Or
+```bash
+git diff mybranch..master -- myfile.cs
+```
+
 [How To Compare Two Git Branches](https://devconnected.com/how-to-compare-two-git-branches/)  
 [Comparing two branches in Git?](https://stackoverflow.com/a/9834872/6146580)  
 [Showing which files have changed between two revisions](https://stackoverflow.com/a/822859/6146580)  
 [git-diff - Show changes between commits, commit and working tree, etc](https://git-scm.com/docs/git-diff)  
 [How can I see a “three way diff” for a Git merge conflict?](https://stackoverflow.com/a/18131595/6146580)  
 [git-merge(1) Manual Page](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-merge.html)
+[How to compare files from two different branches](https://stackoverflow.com/a/4099805)
 
 ### Diff Tools
 
