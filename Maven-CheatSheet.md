@@ -39,7 +39,7 @@ project.build.testOutputDirectory
 project.build.directory
 ```
 
-See [Maven project.build.directory](https://stackoverflow.com/a/13354567/6146580)  
+See [Maven project.build.directory](https://stackoverflow.com/a/13354567/6146580)
 
 ### Remove platform encoding warning
 
@@ -59,14 +59,6 @@ See [Maven project.build.directory](https://stackoverflow.com/a/13354567/6146580
 ```bash
 mvn dependency:tree
 ```
-
-#### Effective POM
-
-```bash
-mvn -q help:effective-pom -Deffective-pom.xml
-```
-[help:effective-pom](https://maven.apache.org/plugins/maven-help-plugin/effective-pom-mojo.html)  
-[Maven Help Plugin](https://maven.apache.org/plugins/maven-help-plugin/usage.html)
 
 ### Purge local Maven repository
 
@@ -208,8 +200,15 @@ Where: <path-to-file>  the path to the file to load
 mvn help:effective-pom
 ```
 
+Or
+
+```bash
+mvn -q help:effective-pom -Deffective-pom.xml
+```
+
 [What are the difference between pom.xml and effective pom in Apache Maven?](https://stackoverflow.com/a/49736042/6146580)  
-[Apache Maven Help Plugin](https://maven.apache.org/plugins/maven-help-plugin/effective-pom-mojo.html)
+[Apache Maven Help Plugin](https://maven.apache.org/plugins/maven-help-plugin/effective-pom-mojo.html)  
+[Maven Help Plugin Usage](https://maven.apache.org/plugins/maven-help-plugin/usage.html)
 
 ### Generate Maven Project
 
@@ -326,8 +325,10 @@ See all: [Maven Command Line Options](https://books.sonatype.com/mvnref-book/ref
 
 ## References
 
+1. [20+ Maven Commands and Options (Cheat Sheet)](https://www.digitalocean.com/community/tutorials/maven-commands-options-cheat-sheet)
 1. [Maven - alternative .m2 directory](http://stackoverflow.com/a/16592061/6146580)
 1. [How to Override the Maven Local Repository setting](https://confluence.atlassian.com/bamkb/how-to-override-the-maven-local-repository-setting-838546993.html)
-1. Maven logging: [Maven logging and the command line](https://binkley.blogspot.com/2017/04/maven-logging-and-command-line.html) and [How to change maven logging level...](https://stackoverflow.com/a/19319402/6146580).
 1. [Maven CLI Options Reference](https://maven.apache.org/ref/3.6.0/maven-embedder/cli.html)
 1. [Purging local repository dependencies](https://maven.apache.org/plugins/maven-dependency-plugin/examples/purging-local-repository.html)
+1. [What are all of the Maven Command Line Options?](https://stackoverflow.com/a/47906431)
+1. Maven logging: [Maven logging and the command line](https://binkley.blogspot.com/2017/04/maven-logging-and-command-line.html) and [How to change maven logging level...](https://stackoverflow.com/a/19319402/6146580)
