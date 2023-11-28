@@ -60,6 +60,14 @@ See [Maven project.build.directory](https://stackoverflow.com/a/13354567/6146580
 mvn dependency:tree
 ```
 
+#### Effective POM
+
+```bash
+mvn -q help:effective-pom -Deffective-pom.xml
+```
+[help:effective-pom](https://maven.apache.org/plugins/maven-help-plugin/effective-pom-mojo.html)  
+[Maven Help Plugin](https://maven.apache.org/plugins/maven-help-plugin/usage.html)
+
 ### Purge local Maven repository
 
 ```bash
