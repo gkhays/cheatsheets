@@ -60,6 +60,12 @@ See [Maven project.build.directory](https://stackoverflow.com/a/13354567/6146580
 mvn dependency:tree
 ```
 
+Filter on a specific group ID.
+
+```bash
+mvn dependency:tree | grep -n -A 5 -B 20 "io.github"
+```
+
 ### Purge local Maven repository
 
 ```bash
