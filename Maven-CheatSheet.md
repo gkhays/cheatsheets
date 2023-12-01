@@ -307,6 +307,28 @@ post-integration-test, verify, install, deploy]
 [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
 ```
 
+## Profiles
+
+### Deactivate a Profile
+
+```bash
+mvn groupId:artifactId:goal -P !profile-1,!profile-2
+```
+
+With escape
+
+```bash
+mvn groupId:artifactId:goal -P \!profile-1
+```
+
+Or, as Shaun Morris suggested below, use - instead of !, but without whitespace between -P and the profiles:
+
+```bash
+mvn groupId:artifactId:goal -P-profile-1,-profile2
+```
+
+[De-activate a maven profile from command line](https://stackoverflow.com/a/25201551)
+
 ## Command Line Options
 
 (Frequently used by me)
