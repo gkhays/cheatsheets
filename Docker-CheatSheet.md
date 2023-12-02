@@ -70,6 +70,20 @@ $ docker kill <container_id>
 $ docker rm <container_id>
 ```
 
+#### Remove multiple containers
+
+```bash
+docker rm $(docker ps --filter status=exited -q)
+```
+
+Or, using `xargs`:
+
+```bash
+docker ps --filter status=exited -q | xargs docker rm
+```
+
+[docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
+
 #### Start container with remove switch
 
 ```bash
@@ -112,8 +126,8 @@ Store the format in `~/.docker/config.json`. E.g.
 
 ```json
 {
-  "psFormat": "table {{.Names}}\\t{{.Image}}\\t{{.RunningFor}} ago\\t{{.Status}}\\t{{.Command}}",
-  "imagesFormat": "table {{.Repository}}\\t{{.Tag}}\\t{{.ID}}\\t{{.Size}}"
+    "psFormat": "table {{.Names}}\\t{{.Image}}\\t{{.RunningFor}} ago\\t{{.Status}}\\t{{.Command}}",
+    "imagesFormat": "table {{.Repository}}\\t{{.Tag}}\\t{{.ID}}\\t{{.Size}}"
 }
 ```
 
@@ -171,16 +185,16 @@ $ docker build -t dev:latest .
 
 ## Resources
 
-- [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
-- [Docker Bench Security](https://github.com/docker/docker-bench-security)
-- [Remove Untagged Images From Docker](http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html)
-- [What are Docker \<none\>:\<none\> images?](http://www.projectatomic.io/blog/2015/07/what-are-docker-none-none-images/)
-- [Docker – Clean Up After Yourself!](http://blog.yohanliyanage.com/2015/05/docker-clean-up-after-yourself/)
-- [How to remove unused Docker containers and images](https://gist.github.com/ngpestelos/4fc2e31e19f86b9cf10b)
-- [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
-- [How do you attach and detach from Docker's process?](https://stackoverflow.com/questions/19688314/how-do-you-attach-and-detach-from-dockers-process)
-- [How to remove old and unused Docker images](http://stackoverflow.com/a/32723127/6146580)
-- [How to remove \<none\> images after building](https://forums.docker.com/t/how-to-remove-none-images-after-building/7050/10)
-- [How To Remove Docker Images, Containers, and Volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
-- [How to list the content of a named volume in docker 1.9+?](https://stackoverflow.com/a/36330903)
-- [How to persist data in a dockerized postgres database using volumes](https://stackoverflow.com/a/45606440)
+-   [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
+-   [Docker Bench Security](https://github.com/docker/docker-bench-security)
+-   [Remove Untagged Images From Docker](http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html)
+-   [What are Docker \<none\>:\<none\> images?](http://www.projectatomic.io/blog/2015/07/what-are-docker-none-none-images/)
+-   [Docker – Clean Up After Yourself!](http://blog.yohanliyanage.com/2015/05/docker-clean-up-after-yourself/)
+-   [How to remove unused Docker containers and images](https://gist.github.com/ngpestelos/4fc2e31e19f86b9cf10b)
+-   [docker rmi](https://docs.docker.com/engine/reference/commandline/rmi/)
+-   [How do you attach and detach from Docker's process?](https://stackoverflow.com/questions/19688314/how-do-you-attach-and-detach-from-dockers-process)
+-   [How to remove old and unused Docker images](http://stackoverflow.com/a/32723127/6146580)
+-   [How to remove \<none\> images after building](https://forums.docker.com/t/how-to-remove-none-images-after-building/7050/10)
+-   [How To Remove Docker Images, Containers, and Volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
+-   [How to list the content of a named volume in docker 1.9+?](https://stackoverflow.com/a/36330903)
+-   [How to persist data in a dockerized postgres database using volumes](https://stackoverflow.com/a/45606440)
