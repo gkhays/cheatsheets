@@ -22,6 +22,19 @@ This is more of an HTML "cheat" but comes in handy in pull requests and other Ma
 </details>
 ```
 
+E.g.
+
+<details>
+  <summary>Details Example</summary>
+  
+```html
+<details>
+  <summary>Details Example</summary>
+  <p>Here are the details!</p>
+</details>
+```
+</details>
+
 See the [jsfiddle](https://jsfiddle.net/gkhays/3gaev1k8/).
 
 ### Resize an Image
