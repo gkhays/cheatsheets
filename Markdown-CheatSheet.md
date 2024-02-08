@@ -11,6 +11,19 @@ Runner up: works for Jekyll, but not Markdown
 
 [Markdown open a new window link](http://stackoverflow.com/a/5803384/6146580)
 
+### Hide Details
+
+This is more of an HTML "cheat" but comes in handy in pull requests and other Markdown documents where you may wish to save on screen "real estate."
+
+```html
+<details>
+  <summary>Details Example</summary>
+  <p>Here are the details!</p>
+</details>
+```
+
+See the [jsfiddle](https://jsfiddle.net/gkhays/3gaev1k8/).
+
 ### Resize an Image
 ```
 ![](images/img.png | width=100)
