@@ -141,6 +141,15 @@ $ docker rmi $(docker images | grep "^<none>" | awk '{print $3}')
 $ docker images -q -a | xargs --no-run-if-empty docker rmi
 ```
 
+#### Remove images by tag
+
+```bash
+docker rmi $(docker images --filter reference=*/*/my-image*:* -q)
+```
+
+[How can I delete Docker images by tag, preferably with wildcarding?  ](https://stackoverflow.com/a/47265229/6146580)
+[Docker | Using filters](https://docs.docker.com/config/filter/)
+
 #### List volumes
 
 ```bash
