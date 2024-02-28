@@ -51,6 +51,15 @@ Ctrl + K + C
 Ctrl + /
 ```
 
+### Column Select
+
+```
+Shift + Alt then drag mouse
+Ctrl + Shift + Alt then arrow keys
+```
+
+[Selecting columns in Visual Studio Code](https://superuser.com/a/1087720)
+
 ### Open Terminal
 
 ```
