@@ -12,19 +12,25 @@ I mostly use [kubectx](https://github.com/ahmetb/kubectx) but it is helpful to k
 ### Get deployments
 
 ```console
-kubectl get deployments.v1.apps -o json -n bridge
+kubectl get deployments.v1.apps -o json -n test
 ```
 
 ### Get pods
 
 ```console
-kubectl get pods -o wide -n bridge
+kubectl get pods -o wide -n test
+```
+
+Pods that are running.
+
+```console
+kuubectl get pods -n test --field-selector=status.phase==Running
 ```
 
 ### Describe pods
 
 ```console
-kubectl describe pods/bridge-client-876b58b4d-tsbhc -n bridge
+kubectl describe pods/bridge-client-876b58b4d-tsbhc -n test
 ```
 
 ### Shell into a pod
@@ -38,20 +44,20 @@ Double dash separates the kubectl arguments from what is to be run inside the po
 ### Get component status
 
 ```console
-kubectl get componentstatuses -n bridge
+kubectl get componentstatuses -n test
 ```
 
 ### Get events
 
 ```console
-kubectl -n bridge get events
+kubectl -n test get events
 ```
 
 ### View logs
 
 ```console
-kubectl logs bridge-client-6df4b7bfdc-2trr5 -n bridge
-kubectl logs bridge-client-6df4b7bfdc-2trr5 -n bridge -f
+kubectl logs bridge-client-6df4b7bfdc-2trr5 -n test
+kubectl logs bridge-client-6df4b7bfdc-2trr5 -n test -f
 ```
 
 ### Get the pod disruption budget
@@ -63,3 +69,4 @@ kubectl get poddisruptionbudget
 ## References
 
 1. [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+2. [Kubernetes (kubectl) get running pods](https://stackoverflow.com/a/58531936/6146580)
