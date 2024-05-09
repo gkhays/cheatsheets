@@ -30,8 +30,14 @@ Sort rows.
 :%!sort
 ```
 
+### Multi-line Select
+
+`Shift + V` then either `k` or `j`
+
 ## References
 
 1. [Go to first line in a file in vim?](https://stackoverflow.com/a/5507386/6146580)
-1. [Vim Cheat Sheet](https://vim.rtorr.com/)
-1. [sort rows in 'VI' editor](https://stackoverflow.com/a/3861516)
+2. [Vim Cheat Sheet](https://vim.rtorr.com/)
+3. [sort rows in 'VI' editor](https://stackoverflow.com/a/3861516)
+4. [What's a quick way to comment/uncomment lines in Vim?](https://stackoverflow.com/a/1676690)
+5. [How To Comment Out Multiple Lines At Once In Vim Editor](https://ostechnix.com/comment-multiple-lines-vim-editor/)
