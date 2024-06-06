@@ -18,6 +18,17 @@ My replacement for `Ctrl + O` in Eclipse.
 
 [Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved)
 
+## Vertical Editing
+
+### Change Repeating Multi-line String
+
+```
+Ctrl + F
+Alt + Enter
+```
+
+[Multiline editing in Visual Studio Code](https://stackoverflow.com/a/45277437/6146580)
+
 ### Edit Settings.json
 
 ```
