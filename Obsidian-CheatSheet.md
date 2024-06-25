@@ -31,6 +31,13 @@ This is a simple footnote[^1].
 [^1]: This is the referenced text.
 ```
 
+### Horizontal Rule
+Three asterisks, dashes, or underscores in a row.
+
+```md
+---
+```
+
 ### Animated GIF
 Either drag and drop from a web page. Or save to Obsidian vault and embed manually.
 
