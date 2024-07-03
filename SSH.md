@@ -1,5 +1,18 @@
 # SSH Settings
 
+### SSH Version
+
+```
+ssh -V
+```
+
+### Verify Connection
+
+```
+ssh -T git@github.com
+```
+
+---
 - [ ] Is this really a cheat sheet? Or perhaps a longer form Gist article?
 
 ### Bash (or other) Profile
