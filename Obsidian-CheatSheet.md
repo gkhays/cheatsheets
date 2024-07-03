@@ -23,6 +23,25 @@ Time Format: `HH:mm` (military clock)
 
 Updated time format: `h:mm a` (AM/PM clock)
 
+### Embed a PDF in a Note
+
+To embed a PDF:
+```md
+![[Document.pdf]]
+```
+
+You can also open a specific page in the PDF, by adding `#page=N` to the link destination, where `N` is the number of the page:
+```md
+![[Document.pdf#page=3]]
+```
+
+You can also specify the height in pixels for the embedded PDF viewer, by adding `#height=[number]` to the link. For example:
+```md
+![[Document.pdf#height=400]]
+```
+
+See [Embed a PDF in a note](https://help.obsidian.md/Linking+notes+and+files/Embed+files#Embed+a+PDF+in+a+note).
+
 ### Footnotes
 
 ```md
