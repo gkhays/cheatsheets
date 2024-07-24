@@ -50,6 +50,15 @@ git reset HEAD~
 
 [A more detailed example](https://stackoverflow.com/a/927386/6146580)
 
+#### Use CRLF Line Endings
+
+Create a `.gitattributes` file. Then
+
+```bat
+# Match files that will always have CRLF line endings on checkout
+*.bat text eol=crlf
+```
+
 #### Discard changes in working directory
 
 ```bash
