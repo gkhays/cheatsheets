@@ -6,7 +6,7 @@ See [Basic formatting syntax](https://help.obsidian.md/Editing+and+formatting/Ba
 Create with a chevron.
 
 ```md
-> [!info]- Exapnd to see more
+> [!info]- Expand to see more
 > This is the detail area.
 ```
 
