@@ -47,6 +47,10 @@ npm install github-wiki-sidebar -g
 github-wiki-sidebar --git-push
 ```
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=gkhays/til,gkhays/cheatsheets&type=Date)](https://star-history.com/#gkhays/til&gkhays/cheatsheets&Date)
+
 ## GitHub Desktop
 
 ### Launch GitHub Desktop from the Command Line
