@@ -134,7 +134,15 @@ mvn -B
 mvn -T 1C
 ```
 
-[Your Maven build is slow. Speed it up!](https://jrebel.com/rebellabs/your-maven-build-is-slow-speed-it-up/)
+Alternatively
+
+```bash
+mvn -T 4 install -- will use 4 threads
+mvn -T 2C install -- will use 2 threads per available CPU core
+```
+
+1. [Your Maven build is slow. Speed it up!](https://jrebel.com/rebellabs/your-maven-build-is-slow-speed-it-up/)
+1. [How to Speed up Your Maven Build](https://www.jrebel.com/blog/how-to-speed-up-your-maven-build)
 
 ### List Modules and Directories
 
