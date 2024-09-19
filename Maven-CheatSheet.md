@@ -1,5 +1,70 @@
 # Maven Cheat Sheet
 
+### Generate from archetype
+
+```
+mvn archetype:generate
+```
+
+For example to generate a Dropwizard poject.
+
+```
+mvn archetype:generate \
+  -DarchetypeGroupId=io.dropwizard.archetypes \
+  -DarchetypeArtifactId=java-simple \
+  -DarchetypeVersion=4.0.8
+```
+
+There is also the JDK8 QuickStart.
+
+```
+mvn org.apache.maven.plugins:maven-archetype-plugin:3.1.2:generate \
+  -DarchetypeArtifactId="archetype-quickstart-jdk8" \
+  -DarchetypeGroupId="com.github.ngeor" \
+  -DarchetypeVersion="2.8.1" \
+  -DgroupId="com.example" \
+  -DartifactId="demo"
+```
+
+<details>
+  <summary>Results</summary>
+ 
+```
+[INFO] --- archetype:3.1.2:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [com.github.ngeor:archetype-quickstart-jdk8:3.0.0] found in catalog remote
+[INFO] Using property: groupId = com.example
+[INFO] Using property: artifactId = demo
+Define value for property 'version' 1.0-SNAPSHOT: :
+[INFO] Using property: package = com.example
+Confirm properties configuration:
+groupId: com.example
+artifactId: demo
+version: 1.0-SNAPSHOT
+package: com.example
+ Y: :
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: archetype-quickstart-jdk8:2.8.1
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: com.example
+[INFO] Parameter: artifactId, Value: demo
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] Parameter: package, Value: com.example
+[INFO] Parameter: packageInPathFormat, Value: com/example
+[INFO] Parameter: package, Value: com.example
+[INFO] Parameter: groupId, Value: com.example
+[INFO] Parameter: artifactId, Value: demo
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] Project created from Archetype in dir: D:\Users\ghays\poc\demo
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:18 min
+[INFO] Finished at: 2024-09-19T16:37:28-05:00
+[INFO] ------------------------------------------------------------------------
+```
+</details>
+
 ### Get project version
 
 ```
