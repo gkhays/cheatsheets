@@ -66,6 +66,12 @@ Filter on a specific group ID.
 mvn dependency:tree | grep -n -A 5 -B 20 "io.github"
 ```
 
+### Analyze dependencies
+
+```bash
+mvn dependency:analyze
+```
+
 ### Purge local Maven repository
 
 ```bash
@@ -368,3 +374,4 @@ See all: [Maven Command Line Options](https://books.sonatype.com/mvnref-book/ref
 1. [Purging local repository dependencies](https://maven.apache.org/plugins/maven-dependency-plugin/examples/purging-local-repository.html)
 1. [What are all of the Maven Command Line Options?](https://stackoverflow.com/a/47906431)
 1. Maven logging: [Maven logging and the command line](https://binkley.blogspot.com/2017/04/maven-logging-and-command-line.html) and [How to change maven logging level...](https://stackoverflow.com/a/19319402/6146580)
+2. [Maven Commands and Options](https://www.geeksforgeeks.org/maven-commands-and-options/)
