@@ -100,6 +100,27 @@ To quote myself. [^1]
 
 [^1]: I said this would be the first footnote.
 
+### Math Symbols
+
+A little flex with LaTeX! 😇
+
+```
+- Inline: $E = mc^2$
+- Block:
+
+$$
+\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}
+$$
+```
+
+Inline: $E = mc^2$
+
+Block:
+
+$$
+\int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}
+$$
+
 ### Line Breaks
 
 I didn't know this one! I always used `<br/>`.
