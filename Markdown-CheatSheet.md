@@ -109,4 +109,5 @@ Line two.
 1. [Markdown Syntax Guide](https://sourceforge.net/p/checkbox/wiki/markdown_syntax/) by mjaniczkova
 1. [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 1. [Markdown Guide](https://www.markdownguide.org/basic-syntax)
+1. [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925)
 
