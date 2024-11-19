@@ -88,6 +88,18 @@ $ ls
 
 - [x] ~~*Show how to do strike-through*~~
 
+### Footnotes
+
+```
+To quote myself. [^1]
+
+[^1]: I said this would be the first footnote.
+```
+
+To quote myself. [^1]
+
+[^1]: I said this would be the first footnote.
+
 ### Line Breaks
 
 I didn't know this one! I always used `<br/>`.
@@ -110,4 +122,4 @@ Line two.
 1. [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 1. [Markdown Guide](https://www.markdownguide.org/basic-syntax)
 1. [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925)
-
+1. [Your life need to be MARKDOWNED: Essential Tips for Exceptional GitHub Writing](https://medium.com/@1chooo/vyour-life-need-to-be-markdowned-essential-tips-for-exceptional-github-writing-08c23ddc3464)
