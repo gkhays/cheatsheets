@@ -77,7 +77,7 @@ $ ls
 > Pay extra attention! 😎
 ```
 
-> {!NOTE]
+> [!NOTE]
 > Pay extra attention! 😎
 
 ### Strike-Through
