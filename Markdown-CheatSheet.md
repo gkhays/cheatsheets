@@ -70,6 +70,16 @@ $ ls
 - [ ] One
 - [x] Two
 
+### Callouts
+
+```
+> [!NOTE]
+> Pay extra attention! 😎
+```
+
+> {!NOTE]
+> Pay extra attention! 😎
+
 ### Strike-Through
 
 ```
