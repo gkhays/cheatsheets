@@ -96,9 +96,12 @@ $ ls
 - [x] ~~*Show how to do strike-through*~~
 
 ### Internal Link
+Represent spaces with a `-`.
 ```
 [Go to this href](#heading)
 ```
+
+[Footnotes](#footnotes)
 
 ### Footnotes
 
