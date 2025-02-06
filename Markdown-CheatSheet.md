@@ -38,11 +38,18 @@ E.g.
 See the [jsfiddle](https://jsfiddle.net/gkhays/3gaev1k8/).
 
 ### Resize an Image
+```html
+<img src="images/img.png" width="100">
+```
+For Jekyll
 ```
 ![](images/img.png | width=100)
 ![](images/img.png =250x250
 ```
-More... https://gist.github.com/uupaa/f77d2bcf4dc7a294d109
+More... https://gist.github.com/uupaa/f77d2bcf4dc7a294d109  
+- https://gist.github.com/stevecondylios/dcadb4fc73e63f27a3bbcf17e52058bf  
+- https://stackoverflow.com/a/14747656  
+- https://stackoverflow.com/a/26138535
 
 ### Illustrate command line or shell commands
 Use `console` as the language
@@ -87,6 +94,11 @@ $ ls
 ```
 
 - [x] ~~*Show how to do strike-through*~~
+
+### Internal Link
+```
+[Go to this href](#heading)
+```
 
 ### Footnotes
 
