@@ -103,6 +103,8 @@ Represent spaces with a `-`.
 
 [Footnotes](#footnotes)
 
+See [How to link to part of the same document in Markdown?](https://stackoverflow.com/a/16426829/6146580)
+
 ### Footnotes
 
 ```
