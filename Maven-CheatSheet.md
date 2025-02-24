@@ -65,6 +65,26 @@ package: com.example
 ```
 </details>
 
+### Maven Configuration
+
+`.mvn` directory:
+Located within the project's top level directory, the files
+- `maven.config`
+- `jvm.config`
+- `extensions.xml`
+
+`.mvn/maven.config` file:
+NOTICE starting with Maven 3.9.0 each single argument must be put on a new line, so for the mentioned example your file will have content like:
+```
+-T3
+-U 
+--fail-at-end
+```
+
+#### References
+- [Configuring Apache Maven](https://maven.apache.org/configure.html)
+- [Maven and Java](https://gist.github.com/LIttleAncientForestKami/46351176bc76538324f1809db0f2f79d)
+
 ### Get project version
 
 ```
