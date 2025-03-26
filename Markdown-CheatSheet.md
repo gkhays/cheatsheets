@@ -118,11 +118,10 @@ Then add a reference:
 [4. JavaScript](#4-javascript)
 ```
 
-* [How to link to part of the same document in Markdown?](https://stackoverflow.com/a/72756103/6146580)
-
 [Footnotes](#footnotes)
 
-See [How to link to part of the same document in Markdown?](https://stackoverflow.com/a/16426829/6146580)
+* [How to link to part of the same document in Markdown?](https://stackoverflow.com/a/16426829/6146580)
+* [Numbered sections in Markdown?](https://stackoverflow.com/a/72756103/6146580)
 
 ### Footnotes
 
