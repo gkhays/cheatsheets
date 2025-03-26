@@ -96,10 +96,29 @@ $ ls
 - [x] ~~*Show how to do strike-through*~~
 
 ### Internal Link
+Useful in a table of contents.
 Represent spaces with a `-`.
 ```
 [Go to this href](#heading)
 ```
+
+I didn't know you could do this! Numbered sections.
+```
+#1. Go
+#2. Python
+#3. Java
+#4. JavaScript
+```
+
+Then add a reference:
+```
+[1. Go](#1-go)
+[2. Python](#2-python)
+[3. Java](#3-java)
+[4. JavaScript](#4-javascript)
+```
+
+* [How to link to part of the same document in Markdown?](https://stackoverflow.com/a/72756103/6146580)
 
 [Footnotes](#footnotes)
 
