@@ -1,5 +1,15 @@
 # Bash Cheat Sheet
 
+### Move to Start of the Line
+```bash
+Ctrl + a
+```
+
+### Move to End of the Line
+```bash
+Ctrl + e
+```
+
 ### Return to Previous Directory
 ```bash
 cd -
