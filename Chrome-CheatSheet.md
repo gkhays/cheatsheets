@@ -5,12 +5,31 @@
 Ctrl + Shift + A
 ```
 ### Next Tab
+Windows
 ```
 Ctrrl + Tab
 ```
-
+Mac
 ```
-Cmd + Option + ->
+Cmd + Option + Right Arrow
+```
+### Previous Tab
+Windows
+```
+Ctrl + Shift + Tab
+```
+Mac
+```
+Cmd + Option + Left Arrow
+```
+### Close Current Tab
+Windows
+```
+Ctrl + W
+```
+Mac
+```
+Cmd + W
 ```
 
 ## References
