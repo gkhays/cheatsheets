@@ -1,0 +1,17 @@
+# Google Chrome Cheat Sheet
+
+### Search Open Tabs
+```
+Ctrl + Shift + A
+```
+### Next Tab
+```
+Ctrrl + Tab
+```
+
+```
+Cmd + Option + ->
+```
+
+## References
+- [Tab & window shortcuts](https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ctab-window-shortcuts)
