@@ -21,6 +21,17 @@ Also known as `reverse-i-search`
 Ctrl + R <match>
 ```
 
+### Show How Command Will Be Interpreted
+```bash
+type -a <command>
+```
+E.g.
+```bash
+type -a bash
+bash is /opt/homebrew/bin/bash
+bash is /bin/bash
+```
+
 ### Here-Document
 ```bash
 $ wc << EOF
