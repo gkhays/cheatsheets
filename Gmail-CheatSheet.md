@@ -73,3 +73,4 @@ g + p
 
 ## References
 - [Keyboard shortcuts for Gmail](https://support.google.com/mail/answer/6594?sjid=5043331168423268411-NA)
+- [The Gmail shortcuts you should actually be using to navigate your inbox](https://zapier.com/blog/gmail-shortcuts/)
