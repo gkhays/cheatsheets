@@ -10,7 +10,12 @@ Shift + /
 /
 ```
 
-### Navigatge through messages
+### Navigate between Priority, Promotions, Social, and Updates tabs
+```
+~
+```
+
+### Navigate through messages
 ```
 j - down
 k - up
