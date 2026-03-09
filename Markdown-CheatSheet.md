@@ -156,6 +156,20 @@ $$
 \int_{-\infty}^\infty e^{-x^2} dx = \sqrt{\pi}
 $$
 
+#### Greek Symbols
+
+```
+$\alpha$
+$\Delta$
+$\Gamma$
+$\Delta$
+```
+
+$\alpha$ - Alpha  
+$\beta$ - Beta  
+$\Gamma$ - Gamma  
+$\Delta$ - Delta or $\delta$
+
 ### Line Breaks
 
 I didn't know this one! I always used `<br/>`.
