@@ -178,4 +178,5 @@ Line two.
 1. [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 1. [Markdown Guide](https://www.markdownguide.org/basic-syntax)
 1. [GitHub Markdown Alerts](https://github.com/orgs/community/discussions/16925)
+1. [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 1. [Your life need to be MARKDOWNED: Essential Tips for Exceptional GitHub Writing](https://medium.com/@1chooo/vyour-life-need-to-be-markdowned-essential-tips-for-exceptional-github-writing-08c23ddc3464)
