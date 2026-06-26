@@ -1,5 +1,7 @@
 # Obsidian Cheat Sheet
 
+A collection of helpful information I had to look up.
+
 ## Keyboard Shortcuts
 
 ### Next Tab
@@ -13,6 +15,8 @@
 `Ctrl + Tab` or `Ctrl + Page Down`
 
 ![Next Tab](images/obsidian-next-tab.png)
+
+## Features
 
 See [Basic formatting syntax](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax).
 
