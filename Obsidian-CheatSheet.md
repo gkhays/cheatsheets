@@ -1,5 +1,19 @@
 # Obsidian Cheat Sheet
 
+## Keyboard Shortcuts
+
+### Next Tab
+
+**Mac**
+
+`Ctrl + Tab` or `Cmd + Shift + ]`
+
+**Windows**
+
+`Ctrl + Tab` or `Ctrl + Page Down`
+
+![Next Tab](images/obsidian-next-tab.png)
+
 See [Basic formatting syntax](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax).
 
 ### Callouts
