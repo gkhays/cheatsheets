@@ -55,6 +55,7 @@ Quick reference for commands in useful tools
 ## Productivity & Communication
 
 - [Gmail-CheatSheet.md](Gmail-CheatSheet.md) — Gmail keyboard shortcuts and features
+- [Google-Docs-CheatSheet.md](Google-Docs-CheatSheet.md) — Google Docs formatting and productivity features
 - [Outlook-CheatSheet.md](Outlook-CheatSheet.md) — Outlook email management shortcuts
 - [Discord-CheatSheet.md](Discord-CheatSheet.md) — Discord chat commands and features
 - [Evernote-CheatSheet.md](Evernote-CheatSheet.md) — Evernote note-taking shortcuts
